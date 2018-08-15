@@ -1,0 +1,2 @@
+# union_students
+ "Exploring data on students who graduated between the 13-14 and 17-18 academic years with a major in mathematics from Union College. Particularly interested in identifying insights that might improve the student experience. Need to be wary of potential confounding factors. Additionally, interpretation is affect by the data not including; math majors who have yet to graduate, math minors or other students taking math courses."
