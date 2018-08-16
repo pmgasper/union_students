@@ -1,3 +1,4 @@
 **/data
 notes.ipynb
 *.swp
+*.ipynb_checkpoints
