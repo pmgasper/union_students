@@ -3,3 +3,4 @@ notes.ipynb
 *.swp
 *.ipynb_checkpoints
 geckodriver.log
+__pycache__/
