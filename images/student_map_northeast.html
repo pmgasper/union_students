@@ -1,0 +1,3844 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <style>#map_16adacf4df8a48aca9202e9481205758 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_16adacf4df8a48aca9202e9481205758" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_16adacf4df8a48aca9202e9481205758 = L.map(
+        'map_16adacf4df8a48aca9202e9481205758', {
+        center: [27, 0],
+        zoom: 2,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+    
+    
+    function objects_in_front() {
+            
+            marker_d9f7d4a4875040738f639913337bd5bf.bringToFront();
+        
+    };
+
+map_16adacf4df8a48aca9202e9481205758.on("overlayadd", objects_in_front);
+$(document).ready(objects_in_front);
+
+    var tile_layer_bdbef66c1aae4c97b0c6b0e29456b55a = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "subdomains": "abc"
+}).addTo(map_16adacf4df8a48aca9202e9481205758);
+    
+        var marker_d9f7d4a4875040738f639913337bd5bf = L.marker(
+            [42.8173, -73.93],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_15ed0aff137849b88f4c559d16c42233 = L.AwesomeMarkers.icon({
+                    icon: 'university',
+                    iconColor: 'white',
+                    markerColor: 'darkred',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d9f7d4a4875040738f639913337bd5bf.setIcon(icon_15ed0aff137849b88f4c559d16c42233);
+            
+    
+            var popup_d4e3847bce3647e6965a193baa306fcc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_52d4dfaa9aa4484f93fb78573855ad33 = $('<div id="html_52d4dfaa9aa4484f93fb78573855ad33" style="width: 100.0%; height: 100.0%;">Union College</div>')[0];
+                popup_d4e3847bce3647e6965a193baa306fcc.setContent(html_52d4dfaa9aa4484f93fb78573855ad33);
+            
+
+            marker_d9f7d4a4875040738f639913337bd5bf.bindPopup(popup_d4e3847bce3647e6965a193baa306fcc)
+            ;
+
+            
+        
+    
+        var marker_c5032d791d3549a6a4ffb1616f1f05a7 = L.marker(
+            [40.6387141, -73.6401296],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_619dd61daacd43d78e0866c97720f254 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c5032d791d3549a6a4ffb1616f1f05a7.setIcon(icon_619dd61daacd43d78e0866c97720f254);
+            
+    
+            var popup_480dd26b42fd4bffadada86436b1e944 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_229be4ea7c854e71b56b99ca264cdbbc = $('<div id="html_229be4ea7c854e71b56b99ca264cdbbc" style="width: 100.0%; height: 100.0%;"><p>Student ID: 1<br>Hometown: Oceanside, NY</p></div>')[0];
+                popup_480dd26b42fd4bffadada86436b1e944.setContent(html_229be4ea7c854e71b56b99ca264cdbbc);
+            
+
+            marker_c5032d791d3549a6a4ffb1616f1f05a7.bindPopup(popup_480dd26b42fd4bffadada86436b1e944)
+            ;
+
+            
+        
+    
+        var marker_e904b79ef4eb4610b0ff0e204b76ec1f = L.marker(
+            [43.198057, -70.87391579999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_133db9725e4141398149958c1491b3e9 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e904b79ef4eb4610b0ff0e204b76ec1f.setIcon(icon_133db9725e4141398149958c1491b3e9);
+            
+    
+            var popup_55a568c7e9514900a4244fd8d5f12809 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_905c94acabda478db4aedf4cfe266f4b = $('<div id="html_905c94acabda478db4aedf4cfe266f4b" style="width: 100.0%; height: 100.0%;"><p>Student ID: 2<br>Hometown: Dover, NH</p></div>')[0];
+                popup_55a568c7e9514900a4244fd8d5f12809.setContent(html_905c94acabda478db4aedf4cfe266f4b);
+            
+
+            marker_e904b79ef4eb4610b0ff0e204b76ec1f.bindPopup(popup_55a568c7e9514900a4244fd8d5f12809)
+            ;
+
+            
+        
+    
+        var marker_1f3e41c589be4308a7b8b0643d2280b7 = L.marker(
+            [42.2417675, -70.80365440000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_360262614cd74fb39a783c031ffa17e1 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1f3e41c589be4308a7b8b0643d2280b7.setIcon(icon_360262614cd74fb39a783c031ffa17e1);
+            
+    
+            var popup_ce1e985ee27a48af994b28f29dfd8aef = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_96bc2e28925f4daa9cb9e103700bddde = $('<div id="html_96bc2e28925f4daa9cb9e103700bddde" style="width: 100.0%; height: 100.0%;"><p>Student ID: 3<br>Hometown: Cohasset, MA</p></div>')[0];
+                popup_ce1e985ee27a48af994b28f29dfd8aef.setContent(html_96bc2e28925f4daa9cb9e103700bddde);
+            
+
+            marker_1f3e41c589be4308a7b8b0643d2280b7.bindPopup(popup_ce1e985ee27a48af994b28f29dfd8aef)
+            ;
+
+            
+        
+    
+        var marker_77bb32af2ae447468f80bb8205bd2be7 = L.marker(
+            [39.5287282, -74.6479364],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_291cc9de5ff2402cb33352a1917a8a20 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_77bb32af2ae447468f80bb8205bd2be7.setIcon(icon_291cc9de5ff2402cb33352a1917a8a20);
+            
+    
+            var popup_c6d0d11cbf214d739c4a285d82225008 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3fdd5c484bce4c45a4840b41374e9a28 = $('<div id="html_3fdd5c484bce4c45a4840b41374e9a28" style="width: 100.0%; height: 100.0%;"><p>Student ID: 4<br>Hometown: Egg Harbor City, NJ</p></div>')[0];
+                popup_c6d0d11cbf214d739c4a285d82225008.setContent(html_3fdd5c484bce4c45a4840b41374e9a28);
+            
+
+            marker_77bb32af2ae447468f80bb8205bd2be7.bindPopup(popup_c6d0d11cbf214d739c4a285d82225008)
+            ;
+
+            
+        
+    
+        var marker_cb6402c7ac78448ea2a8f4691051d6e2 = L.marker(
+            [42.7742446, -73.7001187],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_cab68b0238c24aa1af1eee28e4062527 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cb6402c7ac78448ea2a8f4691051d6e2.setIcon(icon_cab68b0238c24aa1af1eee28e4062527);
+            
+    
+            var popup_27f917887859401d9f70887cb8955238 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d7e9351b4ddf403fa2fc2af2af900132 = $('<div id="html_d7e9351b4ddf403fa2fc2af2af900132" style="width: 100.0%; height: 100.0%;"><p>Student ID: 5<br>Hometown: Cohoes, NY</p></div>')[0];
+                popup_27f917887859401d9f70887cb8955238.setContent(html_d7e9351b4ddf403fa2fc2af2af900132);
+            
+
+            marker_cb6402c7ac78448ea2a8f4691051d6e2.bindPopup(popup_27f917887859401d9f70887cb8955238)
+            ;
+
+            
+        
+    
+        var marker_9a1efeed07eb422eb369fee6db2cf8ec = L.marker(
+            [42.8844625, -77.278399],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_2657855a647d454e98582cf85452eb1e = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a1efeed07eb422eb369fee6db2cf8ec.setIcon(icon_2657855a647d454e98582cf85452eb1e);
+            
+    
+            var popup_c235cb021d204e8da44b5b274279dd41 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_754a528b91314471ac274dd8c490ce46 = $('<div id="html_754a528b91314471ac274dd8c490ce46" style="width: 100.0%; height: 100.0%;"><p>Student ID: 6<br>Hometown: Canandaigua, NY</p></div>')[0];
+                popup_c235cb021d204e8da44b5b274279dd41.setContent(html_754a528b91314471ac274dd8c490ce46);
+            
+
+            marker_9a1efeed07eb422eb369fee6db2cf8ec.bindPopup(popup_c235cb021d204e8da44b5b274279dd41)
+            ;
+
+            
+        
+    
+        var marker_507f38de0810451dbfe1fe59f584f5ac = L.marker(
+            [42.3317642, -71.1211635],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_bc0d156efd9a497db34179b60d6442fb = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_507f38de0810451dbfe1fe59f584f5ac.setIcon(icon_bc0d156efd9a497db34179b60d6442fb);
+            
+    
+            var popup_bc9071e549b146faa932441b8b1024c0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_66e299212be74e63b7c3a888eb7a6009 = $('<div id="html_66e299212be74e63b7c3a888eb7a6009" style="width: 100.0%; height: 100.0%;"><p>Student ID: 7<br>Hometown: Brookline, MA</p></div>')[0];
+                popup_bc9071e549b146faa932441b8b1024c0.setContent(html_66e299212be74e63b7c3a888eb7a6009);
+            
+
+            marker_507f38de0810451dbfe1fe59f584f5ac.bindPopup(popup_bc9071e549b146faa932441b8b1024c0)
+            ;
+
+            
+        
+    
+        var marker_dd4848a282154373a16c216709795d22 = L.marker(
+            [30.248963399999997, 120.20523419999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_65b0fa3daa4141edb929b3cbf9d13667 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_dd4848a282154373a16c216709795d22.setIcon(icon_65b0fa3daa4141edb929b3cbf9d13667);
+            
+    
+            var popup_5862da1fa9d042ba811adc3b6d9b8b25 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6b34ab49b37b4523bc9a32ee05df1c89 = $('<div id="html_6b34ab49b37b4523bc9a32ee05df1c89" style="width: 100.0%; height: 100.0%;"><p>Student ID: 8<br>Hometown: Hangzhou 310006, </p></div>')[0];
+                popup_5862da1fa9d042ba811adc3b6d9b8b25.setContent(html_6b34ab49b37b4523bc9a32ee05df1c89);
+            
+
+            marker_dd4848a282154373a16c216709795d22.bindPopup(popup_5862da1fa9d042ba811adc3b6d9b8b25)
+            ;
+
+            
+        
+    
+        var marker_716df47bda6b4dd8b0ddf005b14e5d9a = L.marker(
+            [42.2584245, -72.5745332],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_40b457c2d04c4405b2a2378a2350c803 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_716df47bda6b4dd8b0ddf005b14e5d9a.setIcon(icon_40b457c2d04c4405b2a2378a2350c803);
+            
+    
+            var popup_70a95a7eb65749e3a8cdc0cccc7fe532 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_957a98926e8549a2a31aa372a8592a35 = $('<div id="html_957a98926e8549a2a31aa372a8592a35" style="width: 100.0%; height: 100.0%;"><p>Student ID: 9<br>Hometown: South Hadley, MA</p></div>')[0];
+                popup_70a95a7eb65749e3a8cdc0cccc7fe532.setContent(html_957a98926e8549a2a31aa372a8592a35);
+            
+
+            marker_716df47bda6b4dd8b0ddf005b14e5d9a.bindPopup(popup_70a95a7eb65749e3a8cdc0cccc7fe532)
+            ;
+
+            
+        
+    
+        var marker_7c997ca497324b608a494a4538732015 = L.marker(
+            [44.4669941, -73.1709604],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_9b23b5dd93f54c98bbabcb01f38d73e0 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7c997ca497324b608a494a4538732015.setIcon(icon_9b23b5dd93f54c98bbabcb01f38d73e0);
+            
+    
+            var popup_da289c157aed4491af231c873b677fc9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_db2f026e318b4e00bd69eb7bd3b27fdc = $('<div id="html_db2f026e318b4e00bd69eb7bd3b27fdc" style="width: 100.0%; height: 100.0%;"><p>Student ID: 10<br>Hometown: South Burlington, VT</p></div>')[0];
+                popup_da289c157aed4491af231c873b677fc9.setContent(html_db2f026e318b4e00bd69eb7bd3b27fdc);
+            
+
+            marker_7c997ca497324b608a494a4538732015.bindPopup(popup_da289c157aed4491af231c873b677fc9)
+            ;
+
+            
+        
+    
+        var marker_ca54364c279b467fbff7bf3698a58c12 = L.marker(
+            [37.453827399999994, -122.18218710000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_c46d2692d40e4c508de8c6fdeb593d50 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca54364c279b467fbff7bf3698a58c12.setIcon(icon_c46d2692d40e4c508de8c6fdeb593d50);
+            
+    
+            var popup_d66bf5f1281b444786de85110ed9eccd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_569717e6265f4bddb66f96cda182a8fc = $('<div id="html_569717e6265f4bddb66f96cda182a8fc" style="width: 100.0%; height: 100.0%;"><p>Student ID: 11<br>Hometown: Menlo Park, CA</p></div>')[0];
+                popup_d66bf5f1281b444786de85110ed9eccd.setContent(html_569717e6265f4bddb66f96cda182a8fc);
+            
+
+            marker_ca54364c279b467fbff7bf3698a58c12.bindPopup(popup_d66bf5f1281b444786de85110ed9eccd)
+            ;
+
+            
+        
+    
+        var marker_8c7175b0c5dd40c68d2b08fc74213c0e = L.marker(
+            [42.2612067, -71.46339559999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_f7848160f84c41d0881242c206f19c93 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c7175b0c5dd40c68d2b08fc74213c0e.setIcon(icon_f7848160f84c41d0881242c206f19c93);
+            
+    
+            var popup_51ea6eee184e4b1e943717a6b140ff6b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_938ec8389b9e4b6eba6994a6cebd8ea6 = $('<div id="html_938ec8389b9e4b6eba6994a6cebd8ea6" style="width: 100.0%; height: 100.0%;"><p>Student ID: 12<br>Hometown: Ashland, MA</p></div>')[0];
+                popup_51ea6eee184e4b1e943717a6b140ff6b.setContent(html_938ec8389b9e4b6eba6994a6cebd8ea6);
+            
+
+            marker_8c7175b0c5dd40c68d2b08fc74213c0e.bindPopup(popup_51ea6eee184e4b1e943717a6b140ff6b)
+            ;
+
+            
+        
+    
+        var marker_1accc8789f2f45948889d59c723a7d9e = L.marker(
+            [39.63650560000001, -74.8023853],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_8780a8ad9eb84ba6aa4d5e21b2a55581 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1accc8789f2f45948889d59c723a7d9e.setIcon(icon_8780a8ad9eb84ba6aa4d5e21b2a55581);
+            
+    
+            var popup_74d5827d38034b30a87a47f73f61404f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2334f97e124b436da8187c88445b19fa = $('<div id="html_2334f97e124b436da8187c88445b19fa" style="width: 100.0%; height: 100.0%;"><p>Student ID: 13<br>Hometown: Hammonton, NJ</p></div>')[0];
+                popup_74d5827d38034b30a87a47f73f61404f.setContent(html_2334f97e124b436da8187c88445b19fa);
+            
+
+            marker_1accc8789f2f45948889d59c723a7d9e.bindPopup(popup_74d5827d38034b30a87a47f73f61404f)
+            ;
+
+            
+        
+    
+        var marker_843acd84649c481192f253ac2e9150e4 = L.marker(
+            [42.3875968, -71.0994968],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_effba0099eb14d399fec499b9d315f4a = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_843acd84649c481192f253ac2e9150e4.setIcon(icon_effba0099eb14d399fec499b9d315f4a);
+            
+    
+            var popup_a5ea1b755fa84a2cb8ce1a5759e8273a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8e29bfbffa6d4489b92a21fd2e4211e3 = $('<div id="html_8e29bfbffa6d4489b92a21fd2e4211e3" style="width: 100.0%; height: 100.0%;"><p>Student ID: 14<br>Hometown: Somerville, MA</p></div>')[0];
+                popup_a5ea1b755fa84a2cb8ce1a5759e8273a.setContent(html_8e29bfbffa6d4489b92a21fd2e4211e3);
+            
+
+            marker_843acd84649c481192f253ac2e9150e4.bindPopup(popup_a5ea1b755fa84a2cb8ce1a5759e8273a)
+            ;
+
+            
+        
+    
+        var marker_69615803914a43adacfceea6190dbc26 = L.marker(
+            [42.3882251, -71.69192190000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_19608c6a92df457282cfb45c9e57f880 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69615803914a43adacfceea6190dbc26.setIcon(icon_19608c6a92df457282cfb45c9e57f880);
+            
+    
+            var popup_e7ba23f21c2a4e1188b0d2eefacb6673 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_57c3e8595c1d42c89c9677ed8184a5f6 = $('<div id="html_57c3e8595c1d42c89c9677ed8184a5f6" style="width: 100.0%; height: 100.0%;"><p>Student ID: 15<br>Hometown: Boylston, MA</p></div>')[0];
+                popup_e7ba23f21c2a4e1188b0d2eefacb6673.setContent(html_57c3e8595c1d42c89c9677ed8184a5f6);
+            
+
+            marker_69615803914a43adacfceea6190dbc26.bindPopup(popup_e7ba23f21c2a4e1188b0d2eefacb6673)
+            ;
+
+            
+        
+    
+        var marker_2c905b4df6ca4a59b795fd8c46b58375 = L.marker(
+            [41.7020544, -70.249465],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_720c63263c4e4741bc7a7fdb81d9eaf4 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c905b4df6ca4a59b795fd8c46b58375.setIcon(icon_720c63263c4e4741bc7a7fdb81d9eaf4);
+            
+    
+            var popup_278c7095f85848fb9da6c4a09ca98a71 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6789a21195024eae943024bc756b6665 = $('<div id="html_6789a21195024eae943024bc756b6665" style="width: 100.0%; height: 100.0%;"><p>Student ID: 16<br>Hometown: Yarmouth Port, MA</p></div>')[0];
+                popup_278c7095f85848fb9da6c4a09ca98a71.setContent(html_6789a21195024eae943024bc756b6665);
+            
+
+            marker_2c905b4df6ca4a59b795fd8c46b58375.bindPopup(popup_278c7095f85848fb9da6c4a09ca98a71)
+            ;
+
+            
+        
+    
+        var marker_31eacc0cd843404ab4a6a1212b81f545 = L.marker(
+            [42.4500967, -73.2453785],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e0d4b571b4594a6288ab9376c62fed7e = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31eacc0cd843404ab4a6a1212b81f545.setIcon(icon_e0d4b571b4594a6288ab9376c62fed7e);
+            
+    
+            var popup_b126f2952b714ca79f1e4088311bb4e6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b261fb9dd1f346aba94af775b0da75b0 = $('<div id="html_b261fb9dd1f346aba94af775b0da75b0" style="width: 100.0%; height: 100.0%;"><p>Student ID: 17<br>Hometown: Pittsfield, MA</p></div>')[0];
+                popup_b126f2952b714ca79f1e4088311bb4e6.setContent(html_b261fb9dd1f346aba94af775b0da75b0);
+            
+
+            marker_31eacc0cd843404ab4a6a1212b81f545.bindPopup(popup_b126f2952b714ca79f1e4088311bb4e6)
+            ;
+
+            
+        
+    
+        var marker_ec0c5776c3f04e9c9c25e83a760ec32c = L.marker(
+            [47.608844500000004, -122.0423067],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_f38ca20ba4a94e9a9fbec166e6ace953 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ec0c5776c3f04e9c9c25e83a760ec32c.setIcon(icon_f38ca20ba4a94e9a9fbec166e6ace953);
+            
+    
+            var popup_7003f90f3728484db5a12947b6477681 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0b64c6423c8f42b1952bb56f5c3486c7 = $('<div id="html_0b64c6423c8f42b1952bb56f5c3486c7" style="width: 100.0%; height: 100.0%;"><p>Student ID: 18<br>Hometown: Sammamish, WA</p></div>')[0];
+                popup_7003f90f3728484db5a12947b6477681.setContent(html_0b64c6423c8f42b1952bb56f5c3486c7);
+            
+
+            marker_ec0c5776c3f04e9c9c25e83a760ec32c.bindPopup(popup_7003f90f3728484db5a12947b6477681)
+            ;
+
+            
+        
+    
+        var marker_5ccd5800c9ce42b9b58756572fdcdb39 = L.marker(
+            [38.8950092, -77.0365625],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_7d61d29296ba4354b5f89c47387aca11 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ccd5800c9ce42b9b58756572fdcdb39.setIcon(icon_7d61d29296ba4354b5f89c47387aca11);
+            
+    
+            var popup_064c78606131454cba44aa10a3e49d6d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_19c7d7f5eaa5449691ffd13a0800ce33 = $('<div id="html_19c7d7f5eaa5449691ffd13a0800ce33" style="width: 100.0%; height: 100.0%;"><p>Student ID: 19<br>Hometown: Washington, DC</p></div>')[0];
+                popup_064c78606131454cba44aa10a3e49d6d.setContent(html_19c7d7f5eaa5449691ffd13a0800ce33);
+            
+
+            marker_5ccd5800c9ce42b9b58756572fdcdb39.bindPopup(popup_064c78606131454cba44aa10a3e49d6d)
+            ;
+
+            
+        
+    
+        var marker_de49b6f0a3f04ec1a616d187d275b3d9 = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_8f75f9c971e24533a2ab5dc722cf112d = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de49b6f0a3f04ec1a616d187d275b3d9.setIcon(icon_8f75f9c971e24533a2ab5dc722cf112d);
+            
+    
+            var popup_8bb2aa18f3804ae597c46a6eff9300e2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_604b06f347254e7f81555e6a4266f1b8 = $('<div id="html_604b06f347254e7f81555e6a4266f1b8" style="width: 100.0%; height: 100.0%;"><p>Student ID: 20<br>Hometown: New York, NY</p></div>')[0];
+                popup_8bb2aa18f3804ae597c46a6eff9300e2.setContent(html_604b06f347254e7f81555e6a4266f1b8);
+            
+
+            marker_de49b6f0a3f04ec1a616d187d275b3d9.bindPopup(popup_8bb2aa18f3804ae597c46a6eff9300e2)
+            ;
+
+            
+        
+    
+        var marker_6a2d5c8bbfbc4175943fa6827d436374 = L.marker(
+            [44.727894299999996, -73.66869820000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_0b81906d87894f22b2d3cca4e9c9b834 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6a2d5c8bbfbc4175943fa6827d436374.setIcon(icon_0b81906d87894f22b2d3cca4e9c9b834);
+            
+    
+            var popup_af08df521ad24a188edca3702ec9292b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_90a6d64d2b3f4f46903917be514f188c = $('<div id="html_90a6d64d2b3f4f46903917be514f188c" style="width: 100.0%; height: 100.0%;"><p>Student ID: 21<br>Hometown: Clinton, NY</p></div>')[0];
+                popup_af08df521ad24a188edca3702ec9292b.setContent(html_90a6d64d2b3f4f46903917be514f188c);
+            
+
+            marker_6a2d5c8bbfbc4175943fa6827d436374.bindPopup(popup_af08df521ad24a188edca3702ec9292b)
+            ;
+
+            
+        
+    
+        var marker_40e7636884d3459d9292e5e8cb92db9c = L.marker(
+            [41.1264849, -73.71401949999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_14021268bbab437987c442c7f29fbedf = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_40e7636884d3459d9292e5e8cb92db9c.setIcon(icon_14021268bbab437987c442c7f29fbedf);
+            
+    
+            var popup_45eceb658a3d4f649c806f7d56a45b87 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b079c782779e46e3bbd17235142ce7fd = $('<div id="html_b079c782779e46e3bbd17235142ce7fd" style="width: 100.0%; height: 100.0%;"><p>Student ID: 22<br>Hometown: Armonk, NY</p></div>')[0];
+                popup_45eceb658a3d4f649c806f7d56a45b87.setContent(html_b079c782779e46e3bbd17235142ce7fd);
+            
+
+            marker_40e7636884d3459d9292e5e8cb92db9c.bindPopup(popup_45eceb658a3d4f649c806f7d56a45b87)
+            ;
+
+            
+        
+    
+        var marker_397d4fb46d584a4db23427ef82edb3cb = L.marker(
+            [41.5456578, -71.2914388],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_62ac85e4796042e28b0cb257494c9273 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_397d4fb46d584a4db23427ef82edb3cb.setIcon(icon_62ac85e4796042e28b0cb257494c9273);
+            
+    
+            var popup_f08e1c4a6205465f9085453822f540d6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb56c4248b0c41c9bfb15ec5ab1f3a07 = $('<div id="html_cb56c4248b0c41c9bfb15ec5ab1f3a07" style="width: 100.0%; height: 100.0%;"><p>Student ID: 23<br>Hometown: Middletown, RI</p></div>')[0];
+                popup_f08e1c4a6205465f9085453822f540d6.setContent(html_cb56c4248b0c41c9bfb15ec5ab1f3a07);
+            
+
+            marker_397d4fb46d584a4db23427ef82edb3cb.bindPopup(popup_f08e1c4a6205465f9085453822f540d6)
+            ;
+
+            
+        
+    
+        var marker_195cbb1242674121a299873940fe38fa = L.marker(
+            [42.3500971, -71.1564423],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_1c10694924a644dba06dd41b25160715 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_195cbb1242674121a299873940fe38fa.setIcon(icon_1c10694924a644dba06dd41b25160715);
+            
+    
+            var popup_e99e7f4dde9d4200a20a869bcd40f1b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_630f4f6800ff49fbbfe7f3da5d257b3c = $('<div id="html_630f4f6800ff49fbbfe7f3da5d257b3c" style="width: 100.0%; height: 100.0%;"><p>Student ID: 24<br>Hometown: Brighton, MA</p></div>')[0];
+                popup_e99e7f4dde9d4200a20a869bcd40f1b5.setContent(html_630f4f6800ff49fbbfe7f3da5d257b3c);
+            
+
+            marker_195cbb1242674121a299873940fe38fa.bindPopup(popup_e99e7f4dde9d4200a20a869bcd40f1b5)
+            ;
+
+            
+        
+    
+        var marker_6abcbed562204db28452efc09ebdb232 = L.marker(
+            [27.4989278, -82.5748194],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_c90ec74e195f4bf186c36a6f86eb954e = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6abcbed562204db28452efc09ebdb232.setIcon(icon_c90ec74e195f4bf186c36a6f86eb954e);
+            
+    
+            var popup_2653fabae77f465aaf766076f192ac3e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f5c3668e04544f4d8ae5931539fa861a = $('<div id="html_f5c3668e04544f4d8ae5931539fa861a" style="width: 100.0%; height: 100.0%;"><p>Student ID: 25<br>Hometown: Bradenton, FL</p></div>')[0];
+                popup_2653fabae77f465aaf766076f192ac3e.setContent(html_f5c3668e04544f4d8ae5931539fa861a);
+            
+
+            marker_6abcbed562204db28452efc09ebdb232.bindPopup(popup_2653fabae77f465aaf766076f192ac3e)
+            ;
+
+            
+        
+    
+        var marker_a22ca51b036d41c7aba628388ad59ddc = L.marker(
+            [41.076207700000005, -73.85874609999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_99dd3b6d299345b88b134340360b3308 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a22ca51b036d41c7aba628388ad59ddc.setIcon(icon_99dd3b6d299345b88b134340360b3308);
+            
+    
+            var popup_7ee0c36c3e80485983cc266fb07229c9 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b141198af168436d8653956213cf843e = $('<div id="html_b141198af168436d8653956213cf843e" style="width: 100.0%; height: 100.0%;"><p>Student ID: 26<br>Hometown: Tarrytown, NY</p></div>')[0];
+                popup_7ee0c36c3e80485983cc266fb07229c9.setContent(html_b141198af168436d8653956213cf843e);
+            
+
+            marker_a22ca51b036d41c7aba628388ad59ddc.bindPopup(popup_7ee0c36c3e80485983cc266fb07229c9)
+            ;
+
+            
+        
+    
+        var marker_f06cf381f9f0472aa24f7b6b43a20e4e = L.marker(
+            [35.047667, -89.493215],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e8d79c03f657483b9e71356f8eb96486 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f06cf381f9f0472aa24f7b6b43a20e4e.setIcon(icon_e8d79c03f657483b9e71356f8eb96486);
+            
+    
+            var popup_262dfa1f8dd8402baf543cf8922faa65 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8636bc1a49bf4cc09b7eb6e8987844e7 = $('<div id="html_8636bc1a49bf4cc09b7eb6e8987844e7" style="width: 100.0%; height: 100.0%;"><p>Student ID: 27<br>Hometown: Mc Lean, VA</p></div>')[0];
+                popup_262dfa1f8dd8402baf543cf8922faa65.setContent(html_8636bc1a49bf4cc09b7eb6e8987844e7);
+            
+
+            marker_f06cf381f9f0472aa24f7b6b43a20e4e.bindPopup(popup_262dfa1f8dd8402baf543cf8922faa65)
+            ;
+
+            
+        
+    
+        var marker_a59f5ab0538244f3a77a3e06a8fafb74 = L.marker(
+            [28.115437800000002, 120.98339270000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_123e00081dd64edc9eb2da9d6acaaa0e = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a59f5ab0538244f3a77a3e06a8fafb74.setIcon(icon_123e00081dd64edc9eb2da9d6acaaa0e);
+            
+    
+            var popup_f2d1aff3a03348f1b3c483e8e33251d7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d646567311344909eeb0610c3d3cd4e = $('<div id="html_7d646567311344909eeb0610c3d3cd4e" style="width: 100.0%; height: 100.0%;"><p>Student ID: 28<br>Hometown: Yueqing 325600, </p></div>')[0];
+                popup_f2d1aff3a03348f1b3c483e8e33251d7.setContent(html_7d646567311344909eeb0610c3d3cd4e);
+            
+
+            marker_a59f5ab0538244f3a77a3e06a8fafb74.bindPopup(popup_f2d1aff3a03348f1b3c483e8e33251d7)
+            ;
+
+            
+        
+    
+        var marker_09a24f0b63d54175a5ad89e22a0859f0 = L.marker(
+            [42.6511674, -73.754968],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_abb4a19cc4bd438f9c6c277c1d5f891f = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09a24f0b63d54175a5ad89e22a0859f0.setIcon(icon_abb4a19cc4bd438f9c6c277c1d5f891f);
+            
+    
+            var popup_d1eb7d73eb5844f58ba7ef4e2c6ebac4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_332abe215dde43d498a77d6b329ea543 = $('<div id="html_332abe215dde43d498a77d6b329ea543" style="width: 100.0%; height: 100.0%;"><p>Student ID: 29<br>Hometown: Albany, NY</p></div>')[0];
+                popup_d1eb7d73eb5844f58ba7ef4e2c6ebac4.setContent(html_332abe215dde43d498a77d6b329ea543);
+            
+
+            marker_09a24f0b63d54175a5ad89e22a0859f0.bindPopup(popup_d1eb7d73eb5844f58ba7ef4e2c6ebac4)
+            ;
+
+            
+        
+    
+        var marker_11593c02925d4983ab6efc5e20993565 = L.marker(
+            [42.947010999999996, -76.4291017],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_a70d9754c2104440ac4e8f6fce4507fc = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_11593c02925d4983ab6efc5e20993565.setIcon(icon_a70d9754c2104440ac4e8f6fce4507fc);
+            
+    
+            var popup_aedbbe6bf4a94881a93820dd5250221f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_9ec27322d70e4185a221c5d2e7a67297 = $('<div id="html_9ec27322d70e4185a221c5d2e7a67297" style="width: 100.0%; height: 100.0%;"><p>Student ID: 30<br>Hometown: Skaneateles, NY</p></div>')[0];
+                popup_aedbbe6bf4a94881a93820dd5250221f.setContent(html_9ec27322d70e4185a221c5d2e7a67297);
+            
+
+            marker_11593c02925d4983ab6efc5e20993565.bindPopup(popup_aedbbe6bf4a94881a93820dd5250221f)
+            ;
+
+            
+        
+    
+        var marker_b30c50091c3e4930af9c7776da418990 = L.marker(
+            [41.995081899999995, -73.8755918],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_ca45a2d38c284609a8935822790c47ac = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightred',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b30c50091c3e4930af9c7776da418990.setIcon(icon_ca45a2d38c284609a8935822790c47ac);
+            
+    
+            var popup_fcb47548080949d09b38ad06818a1f4c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_72aef1b526114a9ea888f31d8a116d6a = $('<div id="html_72aef1b526114a9ea888f31d8a116d6a" style="width: 100.0%; height: 100.0%;"><p>Student ID: 31<br>Hometown: Red Hook, NY</p></div>')[0];
+                popup_fcb47548080949d09b38ad06818a1f4c.setContent(html_72aef1b526114a9ea888f31d8a116d6a);
+            
+
+            marker_b30c50091c3e4930af9c7776da418990.bindPopup(popup_fcb47548080949d09b38ad06818a1f4c)
+            ;
+
+            
+        
+    
+        var marker_efaf6f9556d1439481ac4a5ec3d0af5d = L.marker(
+            [35.199458, -111.6514259],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_9628eaa72191421899f80b2a2c07802d = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_efaf6f9556d1439481ac4a5ec3d0af5d.setIcon(icon_9628eaa72191421899f80b2a2c07802d);
+            
+    
+            var popup_a642a4bee3d24c9e9815897363761653 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e86e00c870304b46a25d0d5ce24110a5 = $('<div id="html_e86e00c870304b46a25d0d5ce24110a5" style="width: 100.0%; height: 100.0%;"><p>Student ID: 32<br>Hometown: Flagstaff, AZ</p></div>')[0];
+                popup_a642a4bee3d24c9e9815897363761653.setContent(html_e86e00c870304b46a25d0d5ce24110a5);
+            
+
+            marker_efaf6f9556d1439481ac4a5ec3d0af5d.bindPopup(popup_a642a4bee3d24c9e9815897363761653)
+            ;
+
+            
+        
+    
+        var marker_9676f183c6ee44d89d5e959c94820456 = L.marker(
+            [41.0234304, -74.0665297],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_d1a821ebb3444bb899c256c7b9dc3c8a = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9676f183c6ee44d89d5e959c94820456.setIcon(icon_d1a821ebb3444bb899c256c7b9dc3c8a);
+            
+    
+            var popup_fc5dfb938a4846dc82965519dfb88429 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c49ff2cf4b164813a680dea180b3843d = $('<div id="html_c49ff2cf4b164813a680dea180b3843d" style="width: 100.0%; height: 100.0%;"><p>Student ID: 33<br>Hometown: Woodcliff Lake, NJ</p></div>')[0];
+                popup_fc5dfb938a4846dc82965519dfb88429.setContent(html_c49ff2cf4b164813a680dea180b3843d);
+            
+
+            marker_9676f183c6ee44d89d5e959c94820456.bindPopup(popup_fc5dfb938a4846dc82965519dfb88429)
+            ;
+
+            
+        
+    
+        var marker_4a42964531034b01bf1b7fe973bd12c8 = L.marker(
+            [42.909798200000004, -73.8951234],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_1a3819f7e6dd410982f1cc47b2c45992 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4a42964531034b01bf1b7fe973bd12c8.setIcon(icon_1a3819f7e6dd410982f1cc47b2c45992);
+            
+    
+            var popup_c5f463e59bfc4325b5ef6d7afb4e7682 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ffec95bbd1a8453cb63135592a649595 = $('<div id="html_ffec95bbd1a8453cb63135592a649595" style="width: 100.0%; height: 100.0%;"><p>Student ID: 34<br>Hometown: Burnt Hills, NY</p></div>')[0];
+                popup_c5f463e59bfc4325b5ef6d7afb4e7682.setContent(html_ffec95bbd1a8453cb63135592a649595);
+            
+
+            marker_4a42964531034b01bf1b7fe973bd12c8.bindPopup(popup_c5f463e59bfc4325b5ef6d7afb4e7682)
+            ;
+
+            
+        
+    
+        var marker_871c2ea2fc1a41b981b98c0e3afb0e2f = L.marker(
+            [41.2087066, -73.5748483],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_578f7877a9044457a92e4f83f6028126 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_871c2ea2fc1a41b981b98c0e3afb0e2f.setIcon(icon_578f7877a9044457a92e4f83f6028126);
+            
+    
+            var popup_7cf63dab1a5a41a7b60d2d3c3789cd56 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b34f57247deb48f1938551f235096956 = $('<div id="html_b34f57247deb48f1938551f235096956" style="width: 100.0%; height: 100.0%;"><p>Student ID: 35<br>Hometown: Pound Ridge, NY</p></div>')[0];
+                popup_7cf63dab1a5a41a7b60d2d3c3789cd56.setContent(html_b34f57247deb48f1938551f235096956);
+            
+
+            marker_871c2ea2fc1a41b981b98c0e3afb0e2f.bindPopup(popup_7cf63dab1a5a41a7b60d2d3c3789cd56)
+            ;
+
+            
+        
+    
+        var marker_af26d60450334f4d874d4f4adc20a360 = L.marker(
+            [32.060973600000004, 118.79164579999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e34785f5c18141d79768931e8246704c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af26d60450334f4d874d4f4adc20a360.setIcon(icon_e34785f5c18141d79768931e8246704c);
+            
+    
+            var popup_a65e4b830b19405b8262a7e8422790e7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5982764b62094758b5b60d7955c3bb79 = $('<div id="html_5982764b62094758b5b60d7955c3bb79" style="width: 100.0%; height: 100.0%;"><p>Student ID: 36<br>Hometown: Nanjing 210000, </p></div>')[0];
+                popup_a65e4b830b19405b8262a7e8422790e7.setContent(html_5982764b62094758b5b60d7955c3bb79);
+            
+
+            marker_af26d60450334f4d874d4f4adc20a360.bindPopup(popup_a65e4b830b19405b8262a7e8422790e7)
+            ;
+
+            
+        
+    
+        var marker_44a8c2bfe18c4698a8d6fd29f7730cb1 = L.marker(
+            [41.0534302, -73.53873409999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_6b927df599dc4d5faba4dbf1ae39e06a = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44a8c2bfe18c4698a8d6fd29f7730cb1.setIcon(icon_6b927df599dc4d5faba4dbf1ae39e06a);
+            
+    
+            var popup_6582670071b64e3eb16c9d1fd4be8966 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_bdc1ae177e3c41deb589a641ef50532a = $('<div id="html_bdc1ae177e3c41deb589a641ef50532a" style="width: 100.0%; height: 100.0%;"><p>Student ID: 37<br>Hometown: Stamford, CT</p></div>')[0];
+                popup_6582670071b64e3eb16c9d1fd4be8966.setContent(html_bdc1ae177e3c41deb589a641ef50532a);
+            
+
+            marker_44a8c2bfe18c4698a8d6fd29f7730cb1.bindPopup(popup_6582670071b64e3eb16c9d1fd4be8966)
+            ;
+
+            
+        
+    
+        var marker_73b1c2dead494be993de51d3466fc3ad = L.marker(
+            [39.1235635, 117.1980785],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_5820d91449c045c59e8f9071df38b4e8 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_73b1c2dead494be993de51d3466fc3ad.setIcon(icon_5820d91449c045c59e8f9071df38b4e8);
+            
+    
+            var popup_77edc6977fd94017979b7610629455b8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a42475292cbe47e5b37172a2c35f920f = $('<div id="html_a42475292cbe47e5b37172a2c35f920f" style="width: 100.0%; height: 100.0%;"><p>Student ID: 38<br>Hometown: Tianjin 300051, </p></div>')[0];
+                popup_77edc6977fd94017979b7610629455b8.setContent(html_a42475292cbe47e5b37172a2c35f920f);
+            
+
+            marker_73b1c2dead494be993de51d3466fc3ad.bindPopup(popup_77edc6977fd94017979b7610629455b8)
+            ;
+
+            
+        
+    
+        var marker_8f15a339c8694db586dec1271836a3ee = L.marker(
+            [30.248963399999997, 120.20523419999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_eb38e1f2bacf4e18a8a043c9e1c91f1a = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f15a339c8694db586dec1271836a3ee.setIcon(icon_eb38e1f2bacf4e18a8a043c9e1c91f1a);
+            
+    
+            var popup_7b20ce8a64ad451c9f8792ee6852762b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5333e909e9e84f5ab772b34bbce64dd5 = $('<div id="html_5333e909e9e84f5ab772b34bbce64dd5" style="width: 100.0%; height: 100.0%;"><p>Student ID: 39<br>Hometown: Hangzhou 310013, </p></div>')[0];
+                popup_7b20ce8a64ad451c9f8792ee6852762b.setContent(html_5333e909e9e84f5ab772b34bbce64dd5);
+            
+
+            marker_8f15a339c8694db586dec1271836a3ee.bindPopup(popup_7b20ce8a64ad451c9f8792ee6852762b)
+            ;
+
+            
+        
+    
+        var marker_6875268c261c4dfeb6d15315e404994f = L.marker(
+            [40.6431591, -73.6956865],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_de55f97847d6426d9a0c183fd288b6dd = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6875268c261c4dfeb6d15315e404994f.setIcon(icon_de55f97847d6426d9a0c183fd288b6dd);
+            
+    
+            var popup_d9f4a9b145944ece90d2677abd77587f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_745ee4b65a6d49c4835f8d1deb2aac13 = $('<div id="html_745ee4b65a6d49c4835f8d1deb2aac13" style="width: 100.0%; height: 100.0%;"><p>Student ID: 40<br>Hometown: Hewlett, NY</p></div>')[0];
+                popup_d9f4a9b145944ece90d2677abd77587f.setContent(html_745ee4b65a6d49c4835f8d1deb2aac13);
+            
+
+            marker_6875268c261c4dfeb6d15315e404994f.bindPopup(popup_d9f4a9b145944ece90d2677abd77587f)
+            ;
+
+            
+        
+    
+        var marker_71067fd502c44d54a4b1f0ae87434b7a = L.marker(
+            [42.283431, -71.2328329],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_6a6d1f4955a94bb5b0b67c410a9b184d = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_71067fd502c44d54a4b1f0ae87434b7a.setIcon(icon_6a6d1f4955a94bb5b0b67c410a9b184d);
+            
+    
+            var popup_7c4f1fa476774781a0cb758b3a77eb4d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5cc181be734f4b5db51d1e255b0dc4fc = $('<div id="html_5cc181be734f4b5db51d1e255b0dc4fc" style="width: 100.0%; height: 100.0%;"><p>Student ID: 41<br>Hometown: Needham, MA</p></div>')[0];
+                popup_7c4f1fa476774781a0cb758b3a77eb4d.setContent(html_5cc181be734f4b5db51d1e255b0dc4fc);
+            
+
+            marker_71067fd502c44d54a4b1f0ae87434b7a.bindPopup(popup_7c4f1fa476774781a0cb758b3a77eb4d)
+            ;
+
+            
+        
+    
+        var marker_b721c748c25844ccb8453bd5ffd3f917 = L.marker(
+            [40.6540805, -73.5285878127105],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_fadcec6d7251408ca278b872a30779cf = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b721c748c25844ccb8453bd5ffd3f917.setIcon(icon_fadcec6d7251408ca278b872a30779cf);
+            
+    
+            var popup_d3cf5f075afb4c17bae0dab3f92825f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_eea797de8ea74c9eaa85e64dde9be913 = $('<div id="html_eea797de8ea74c9eaa85e64dde9be913" style="width: 100.0%; height: 100.0%;"><p>Student ID: 42<br>Hometown: Bellmore, NY</p></div>')[0];
+                popup_d3cf5f075afb4c17bae0dab3f92825f0.setContent(html_eea797de8ea74c9eaa85e64dde9be913);
+            
+
+            marker_b721c748c25844ccb8453bd5ffd3f917.bindPopup(popup_d3cf5f075afb4c17bae0dab3f92825f0)
+            ;
+
+            
+        
+    
+        var marker_3d71525063fc4cf982e6ef35b9b2b983 = L.marker(
+            [43.08217929999999, -73.7853915],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_49e9749823b34e7aa557cec5f03c4886 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3d71525063fc4cf982e6ef35b9b2b983.setIcon(icon_49e9749823b34e7aa557cec5f03c4886);
+            
+    
+            var popup_d93f8eaeec0e425888bc1d5b8bfdffff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3bfbea492eb04f789c741006e00df1c4 = $('<div id="html_3bfbea492eb04f789c741006e00df1c4" style="width: 100.0%; height: 100.0%;"><p>Student ID: 43<br>Hometown: Saratoga Springs, NY</p></div>')[0];
+                popup_d93f8eaeec0e425888bc1d5b8bfdffff.setContent(html_3bfbea492eb04f789c741006e00df1c4);
+            
+
+            marker_3d71525063fc4cf982e6ef35b9b2b983.bindPopup(popup_d93f8eaeec0e425888bc1d5b8bfdffff)
+            ;
+
+            
+        
+    
+        var marker_032136b0c78d4ebcbf7413cc1666acc9 = L.marker(
+            [41.1953739, -73.4378988],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_d11586593ab540b9b340be140157ca91 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_032136b0c78d4ebcbf7413cc1666acc9.setIcon(icon_d11586593ab540b9b340be140157ca91);
+            
+    
+            var popup_a6608f2012f94f6bbb5b3908f13d9225 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_81c5450770e04f849e081d283c0338cb = $('<div id="html_81c5450770e04f849e081d283c0338cb" style="width: 100.0%; height: 100.0%;"><p>Student ID: 44<br>Hometown: Wilton, CT</p></div>')[0];
+                popup_a6608f2012f94f6bbb5b3908f13d9225.setContent(html_81c5450770e04f849e081d283c0338cb);
+            
+
+            marker_032136b0c78d4ebcbf7413cc1666acc9.bindPopup(popup_a6608f2012f94f6bbb5b3908f13d9225)
+            ;
+
+            
+        
+    
+        var marker_5f605912ccac41f190672bb136672d8c = L.marker(
+            [41.2222218, -73.0570603],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_d8521db0ee2f45ad98cd88f7664a89df = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f605912ccac41f190672bb136672d8c.setIcon(icon_d8521db0ee2f45ad98cd88f7664a89df);
+            
+    
+            var popup_896b160effdf4df3a3b77f6c66fb5ac6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_228de4a792394edfbc986b131fec5ffb = $('<div id="html_228de4a792394edfbc986b131fec5ffb" style="width: 100.0%; height: 100.0%;"><p>Student ID: 45<br>Hometown: Milford, CT</p></div>')[0];
+                popup_896b160effdf4df3a3b77f6c66fb5ac6.setContent(html_228de4a792394edfbc986b131fec5ffb);
+            
+
+            marker_5f605912ccac41f190672bb136672d8c.bindPopup(popup_896b160effdf4df3a3b77f6c66fb5ac6)
+            ;
+
+            
+        
+    
+        var marker_9c1694e55db140e28c621105da8579a9 = L.marker(
+            [41.562320899999996, -72.6506488],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_205f3fba633441dcb4ab2cc5b41576a0 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c1694e55db140e28c621105da8579a9.setIcon(icon_205f3fba633441dcb4ab2cc5b41576a0);
+            
+    
+            var popup_355eff157c5e4e0c8a14a3aecffb1fee = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e7c4000511924a29884cdfbb6235e03a = $('<div id="html_e7c4000511924a29884cdfbb6235e03a" style="width: 100.0%; height: 100.0%;"><p>Student ID: 46<br>Hometown: Middletown, CT</p></div>')[0];
+                popup_355eff157c5e4e0c8a14a3aecffb1fee.setContent(html_e7c4000511924a29884cdfbb6235e03a);
+            
+
+            marker_9c1694e55db140e28c621105da8579a9.bindPopup(popup_355eff157c5e4e0c8a14a3aecffb1fee)
+            ;
+
+            
+        
+    
+        var marker_97250ff5cc43433e8382fefe08722bf3 = L.marker(
+            [42.3750997, -71.1056157],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_aef4e6ce24594aa997310b8a5edf6d27 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_97250ff5cc43433e8382fefe08722bf3.setIcon(icon_aef4e6ce24594aa997310b8a5edf6d27);
+            
+    
+            var popup_63fb7f39461b41809e2c8ee094c6affc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6a63e181746b457db21546d8f6f69fdf = $('<div id="html_6a63e181746b457db21546d8f6f69fdf" style="width: 100.0%; height: 100.0%;"><p>Student ID: 47<br>Hometown: Cambridge, MA</p></div>')[0];
+                popup_63fb7f39461b41809e2c8ee094c6affc.setContent(html_6a63e181746b457db21546d8f6f69fdf);
+            
+
+            marker_97250ff5cc43433e8382fefe08722bf3.bindPopup(popup_63fb7f39461b41809e2c8ee094c6affc)
+            ;
+
+            
+        
+    
+        var marker_cde7ab37827a4621aeb601567b7f9499 = L.marker(
+            [22.5445697, 114.0545346],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_7f744e943aa24dc3bb7951bce1f5760c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cde7ab37827a4621aeb601567b7f9499.setIcon(icon_7f744e943aa24dc3bb7951bce1f5760c);
+            
+    
+            var popup_628b2056bf3b402780447e5bdc384f2c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_24a2c2efcaed4771827db6663d891ea6 = $('<div id="html_24a2c2efcaed4771827db6663d891ea6" style="width: 100.0%; height: 100.0%;"><p>Student ID: 48<br>Hometown: Shenzhen Guangdong 518028, </p></div>')[0];
+                popup_628b2056bf3b402780447e5bdc384f2c.setContent(html_24a2c2efcaed4771827db6663d891ea6);
+            
+
+            marker_cde7ab37827a4621aeb601567b7f9499.bindPopup(popup_628b2056bf3b402780447e5bdc384f2c)
+            ;
+
+            
+        
+    
+        var marker_80a949bc479448d790704e164e8cd641 = L.marker(
+            [39.9622601, -83.00070649999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_bd2b1fe3d5964d8c931b719514fd8241 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_80a949bc479448d790704e164e8cd641.setIcon(icon_bd2b1fe3d5964d8c931b719514fd8241);
+            
+    
+            var popup_1f9f8b7b3df34ca98da3180a33d3c562 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_92b619d2a8994a45bd58a4235465b067 = $('<div id="html_92b619d2a8994a45bd58a4235465b067" style="width: 100.0%; height: 100.0%;"><p>Student ID: 49<br>Hometown: Columbus, OH</p></div>')[0];
+                popup_1f9f8b7b3df34ca98da3180a33d3c562.setContent(html_92b619d2a8994a45bd58a4235465b067);
+            
+
+            marker_80a949bc479448d790704e164e8cd641.bindPopup(popup_1f9f8b7b3df34ca98da3180a33d3c562)
+            ;
+
+            
+        
+    
+        var marker_5a820321d7b9440ab6a0d94f93294203 = L.marker(
+            [42.283431, -71.2328329],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_2a37c44247c04aeb91bb0803ef9d123f = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5a820321d7b9440ab6a0d94f93294203.setIcon(icon_2a37c44247c04aeb91bb0803ef9d123f);
+            
+    
+            var popup_19f73d2a1b4d498b9eae6c68577076bd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_269de55645ce41418a81dff5f075b1d2 = $('<div id="html_269de55645ce41418a81dff5f075b1d2" style="width: 100.0%; height: 100.0%;"><p>Student ID: 50<br>Hometown: Needham, MA</p></div>')[0];
+                popup_19f73d2a1b4d498b9eae6c68577076bd.setContent(html_269de55645ce41418a81dff5f075b1d2);
+            
+
+            marker_5a820321d7b9440ab6a0d94f93294203.bindPopup(popup_19f73d2a1b4d498b9eae6c68577076bd)
+            ;
+
+            
+        
+    
+        var marker_6829104c3f8a4363bb42028bd11cf40b = L.marker(
+            [42.9783924, -78.7997616],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_f0aacfedc91b4013bddb5e34119c3264 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6829104c3f8a4363bb42028bd11cf40b.setIcon(icon_f0aacfedc91b4013bddb5e34119c3264);
+            
+    
+            var popup_2d7723c495254410848688c4601a0439 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ef66eea138464d6a91c6628b15325bcd = $('<div id="html_ef66eea138464d6a91c6628b15325bcd" style="width: 100.0%; height: 100.0%;"><p>Student ID: 51<br>Hometown: Amherst, NY</p></div>')[0];
+                popup_2d7723c495254410848688c4601a0439.setContent(html_ef66eea138464d6a91c6628b15325bcd);
+            
+
+            marker_6829104c3f8a4363bb42028bd11cf40b.bindPopup(popup_2d7723c495254410848688c4601a0439)
+            ;
+
+            
+        
+    
+        var marker_158a305e34b147209317c8a2ae7c9896 = L.marker(
+            [40.7281575, -74.0776417],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_8b1a4c8a811f4a219f51544159287fb3 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_158a305e34b147209317c8a2ae7c9896.setIcon(icon_8b1a4c8a811f4a219f51544159287fb3);
+            
+    
+            var popup_5f06ec302f0d426aa58f2f9c8e628a7b = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f5eafd9c332c49e4979792ccb20ca205 = $('<div id="html_f5eafd9c332c49e4979792ccb20ca205" style="width: 100.0%; height: 100.0%;"><p>Student ID: 52<br>Hometown: Jersey City, NJ</p></div>')[0];
+                popup_5f06ec302f0d426aa58f2f9c8e628a7b.setContent(html_f5eafd9c332c49e4979792ccb20ca205);
+            
+
+            marker_158a305e34b147209317c8a2ae7c9896.bindPopup(popup_5f06ec302f0d426aa58f2f9c8e628a7b)
+            ;
+
+            
+        
+    
+        var marker_2c4281aa51de49dbae184c1894a28535 = L.marker(
+            [41.289811, -73.9204922],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e58d8638c878470983c2bcb8ebc4a085 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2c4281aa51de49dbae184c1894a28535.setIcon(icon_e58d8638c878470983c2bcb8ebc4a085);
+            
+    
+            var popup_d2e37a2c258a4b8caa452d035a34d0ac = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_143b12b7b1554448b4ac5de450e94b3e = $('<div id="html_143b12b7b1554448b4ac5de450e94b3e" style="width: 100.0%; height: 100.0%;"><p>Student ID: 53<br>Hometown: Peekskill, NY</p></div>')[0];
+                popup_d2e37a2c258a4b8caa452d035a34d0ac.setContent(html_143b12b7b1554448b4ac5de450e94b3e);
+            
+
+            marker_2c4281aa51de49dbae184c1894a28535.bindPopup(popup_d2e37a2c258a4b8caa452d035a34d0ac)
+            ;
+
+            
+        
+    
+        var marker_ee8a8297238b4978b3b782a216b80e0b = L.marker(
+            [38.920716, 121.63886780000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_f94d972b8d594884ac760ca8c4ff3758 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee8a8297238b4978b3b782a216b80e0b.setIcon(icon_f94d972b8d594884ac760ca8c4ff3758);
+            
+    
+            var popup_977b9dc5c6164d24b3a6bdc138d1ed5a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fa1c46c2f25e4ace870a118109a99894 = $('<div id="html_fa1c46c2f25e4ace870a118109a99894" style="width: 100.0%; height: 100.0%;"><p>Student ID: 54<br>Hometown: Dalian Liaoning 116001, </p></div>')[0];
+                popup_977b9dc5c6164d24b3a6bdc138d1ed5a.setContent(html_fa1c46c2f25e4ace870a118109a99894);
+            
+
+            marker_ee8a8297238b4978b3b782a216b80e0b.bindPopup(popup_977b9dc5c6164d24b3a6bdc138d1ed5a)
+            ;
+
+            
+        
+    
+        var marker_344e0f0096e4434bafd283a4e787764f = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_269ceab3bb1d4c1490ffb2ec3c823b74 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_344e0f0096e4434bafd283a4e787764f.setIcon(icon_269ceab3bb1d4c1490ffb2ec3c823b74);
+            
+    
+            var popup_9a012b60102f4585a6b2f72e9fff2c24 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_16eb7d6df16340be8e96c7bc3d5f824a = $('<div id="html_16eb7d6df16340be8e96c7bc3d5f824a" style="width: 100.0%; height: 100.0%;"><p>Student ID: 55<br>Hometown: New York, NY</p></div>')[0];
+                popup_9a012b60102f4585a6b2f72e9fff2c24.setContent(html_16eb7d6df16340be8e96c7bc3d5f824a);
+            
+
+            marker_344e0f0096e4434bafd283a4e787764f.bindPopup(popup_9a012b60102f4585a6b2f72e9fff2c24)
+            ;
+
+            
+        
+    
+        var marker_ac88f6765714444c8b33cdd504dfb4fc = L.marker(
+            [43.074760999999995, -89.3837613],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_68aad99b0a8447d7802ac2c4147292a9 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ac88f6765714444c8b33cdd504dfb4fc.setIcon(icon_68aad99b0a8447d7802ac2c4147292a9);
+            
+    
+            var popup_90ecb93f03894f31bd0533bc6d61d066 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_941add4d7f3c4cb394e00f403f69171d = $('<div id="html_941add4d7f3c4cb394e00f403f69171d" style="width: 100.0%; height: 100.0%;"><p>Student ID: 56<br>Hometown: Madison, WI</p></div>')[0];
+                popup_90ecb93f03894f31bd0533bc6d61d066.setContent(html_941add4d7f3c4cb394e00f403f69171d);
+            
+
+            marker_ac88f6765714444c8b33cdd504dfb4fc.bindPopup(popup_90ecb93f03894f31bd0533bc6d61d066)
+            ;
+
+            
+        
+    
+        var marker_5d58b7f98c514e16b03796dac129e2ed = L.marker(
+            [42.3464455, -71.2486927],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e1b254fec45d4a68a8afde81a244ec85 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d58b7f98c514e16b03796dac129e2ed.setIcon(icon_e1b254fec45d4a68a8afde81a244ec85);
+            
+    
+            var popup_7b90effddcd9441dbd298158ed864c05 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c307b86240904a9fbcb22abf7fa7e03e = $('<div id="html_c307b86240904a9fbcb22abf7fa7e03e" style="width: 100.0%; height: 100.0%;"><p>Student ID: 57<br>Hometown: Auburndale, MA</p></div>')[0];
+                popup_7b90effddcd9441dbd298158ed864c05.setContent(html_c307b86240904a9fbcb22abf7fa7e03e);
+            
+
+            marker_5d58b7f98c514e16b03796dac129e2ed.bindPopup(popup_7b90effddcd9441dbd298158ed864c05)
+            ;
+
+            
+        
+    
+        var marker_e6f86a59c4d746ee8a6c5dc3f311037f = L.marker(
+            [42.2139873, -71.22449870000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_09d5e5faf9c04daa80ea4ec8bd4a54d0 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e6f86a59c4d746ee8a6c5dc3f311037f.setIcon(icon_09d5e5faf9c04daa80ea4ec8bd4a54d0);
+            
+    
+            var popup_2740c95d34e047b1b8addf2e052b1889 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_e2aa0fd134e149aea0c08c0a71b60b66 = $('<div id="html_e2aa0fd134e149aea0c08c0a71b60b66" style="width: 100.0%; height: 100.0%;"><p>Student ID: 58<br>Hometown: Westwood, MA</p></div>')[0];
+                popup_2740c95d34e047b1b8addf2e052b1889.setContent(html_e2aa0fd134e149aea0c08c0a71b60b66);
+            
+
+            marker_e6f86a59c4d746ee8a6c5dc3f311037f.bindPopup(popup_2740c95d34e047b1b8addf2e052b1889)
+            ;
+
+            
+        
+    
+        var marker_e251702dea7d47be8b874f6aeee2ae83 = L.marker(
+            [38.980666, -76.9369189],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_45476914f35b485283b728215bf76453 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e251702dea7d47be8b874f6aeee2ae83.setIcon(icon_45476914f35b485283b728215bf76453);
+            
+    
+            var popup_5e3daa1058114d1f87f6fa609eaaf845 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2f47cd85edce4312b7464a127473dcd7 = $('<div id="html_2f47cd85edce4312b7464a127473dcd7" style="width: 100.0%; height: 100.0%;"><p>Student ID: 59<br>Hometown: College Park, MD</p></div>')[0];
+                popup_5e3daa1058114d1f87f6fa609eaaf845.setContent(html_2f47cd85edce4312b7464a127473dcd7);
+            
+
+            marker_e251702dea7d47be8b874f6aeee2ae83.bindPopup(popup_5e3daa1058114d1f87f6fa609eaaf845)
+            ;
+
+            
+        
+    
+        var marker_5ce316aeb8864e12a642ac27a0741970 = L.marker(
+            [40.7058564, -73.3077301],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_5508b0b1dc494aa1aabbce7f9fdf4cb8 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5ce316aeb8864e12a642ac27a0741970.setIcon(icon_5508b0b1dc494aa1aabbce7f9fdf4cb8);
+            
+    
+            var popup_fc07aacd709e4c468472bfd0c24e0e51 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_694d8531845042d680e4f675c2530736 = $('<div id="html_694d8531845042d680e4f675c2530736" style="width: 100.0%; height: 100.0%;"><p>Student ID: 60<br>Hometown: West Islip, NY</p></div>')[0];
+                popup_fc07aacd709e4c468472bfd0c24e0e51.setContent(html_694d8531845042d680e4f675c2530736);
+            
+
+            marker_5ce316aeb8864e12a642ac27a0741970.bindPopup(popup_fc07aacd709e4c468472bfd0c24e0e51)
+            ;
+
+            
+        
+    
+        var marker_32e0010c74ff4bc1861299679da2bee7 = L.marker(
+            [42.4473175, -71.2245003],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_57fdd8954b4f4006806c3bb3e7b21f56 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32e0010c74ff4bc1861299679da2bee7.setIcon(icon_57fdd8954b4f4006806c3bb3e7b21f56);
+            
+    
+            var popup_128719c7944b43d48710e7d336e9bccb = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_30f56e5303ba4ac787fe3039851e4a06 = $('<div id="html_30f56e5303ba4ac787fe3039851e4a06" style="width: 100.0%; height: 100.0%;"><p>Student ID: 61<br>Hometown: Lexington, MA</p></div>')[0];
+                popup_128719c7944b43d48710e7d336e9bccb.setContent(html_30f56e5303ba4ac787fe3039851e4a06);
+            
+
+            marker_32e0010c74ff4bc1861299679da2bee7.bindPopup(popup_128719c7944b43d48710e7d336e9bccb)
+            ;
+
+            
+        
+    
+        var marker_8d5effcbe3b64f14b5e91aa131af94c0 = L.marker(
+            [26.26485615, -80.2653420379876],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_cf083e916bc04d099da9585337cd9c00 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8d5effcbe3b64f14b5e91aa131af94c0.setIcon(icon_cf083e916bc04d099da9585337cd9c00);
+            
+    
+            var popup_f996f249b87a42bbb4cf1ecbaeeac1d3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8bee2228a34a437b912b431d945ad9d7 = $('<div id="html_8bee2228a34a437b912b431d945ad9d7" style="width: 100.0%; height: 100.0%;"><p>Student ID: 62<br>Hometown: Coral Springs, FL</p></div>')[0];
+                popup_f996f249b87a42bbb4cf1ecbaeeac1d3.setContent(html_8bee2228a34a437b912b431d945ad9d7);
+            
+
+            marker_8d5effcbe3b64f14b5e91aa131af94c0.bindPopup(popup_f996f249b87a42bbb4cf1ecbaeeac1d3)
+            ;
+
+            
+        
+    
+        var marker_13d7805d0b234bac98a96e39277d8db6 = L.marker(
+            [42.3602534, -71.0582912],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_cd9399b4e9fd46db818d761edff1e928 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_13d7805d0b234bac98a96e39277d8db6.setIcon(icon_cd9399b4e9fd46db818d761edff1e928);
+            
+    
+            var popup_24b66c14cdbd4fc1a8a206159f90e864 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_86caba4205134c23a95e6a893fd5c4b1 = $('<div id="html_86caba4205134c23a95e6a893fd5c4b1" style="width: 100.0%; height: 100.0%;"><p>Student ID: 63<br>Hometown: Boston, MA</p></div>')[0];
+                popup_24b66c14cdbd4fc1a8a206159f90e864.setContent(html_86caba4205134c23a95e6a893fd5c4b1);
+            
+
+            marker_13d7805d0b234bac98a96e39277d8db6.bindPopup(popup_24b66c14cdbd4fc1a8a206159f90e864)
+            ;
+
+            
+        
+    
+        var marker_22b8e4a9bb5e4cf8916f75806c09d5ed = L.marker(
+            [42.1162056, -72.11341],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_c24f97ace56841a28c32428548bf606c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_22b8e4a9bb5e4cf8916f75806c09d5ed.setIcon(icon_c24f97ace56841a28c32428548bf606c);
+            
+    
+            var popup_f92128ab155d40cdb2a643a50c0bbe9e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a661f9c16d994f6a8df2b2c0d55397c3 = $('<div id="html_a661f9c16d994f6a8df2b2c0d55397c3" style="width: 100.0%; height: 100.0%;"><p>Student ID: 64<br>Hometown: Fiskdale, MA</p></div>')[0];
+                popup_f92128ab155d40cdb2a643a50c0bbe9e.setContent(html_a661f9c16d994f6a8df2b2c0d55397c3);
+            
+
+            marker_22b8e4a9bb5e4cf8916f75806c09d5ed.bindPopup(popup_f92128ab155d40cdb2a643a50c0bbe9e)
+            ;
+
+            
+        
+    
+        var marker_70df0e44149a4316a790dc552fceb302 = L.marker(
+            [40.6501038, -73.9495823],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_283e87a90e6a42c5a3c882be6b64bf85 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_70df0e44149a4316a790dc552fceb302.setIcon(icon_283e87a90e6a42c5a3c882be6b64bf85);
+            
+    
+            var popup_8688e23a6d184030ab98bab470f19bd4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5f14875564414d268947e80b94487d94 = $('<div id="html_5f14875564414d268947e80b94487d94" style="width: 100.0%; height: 100.0%;"><p>Student ID: 65<br>Hometown: Brooklyn, NY</p></div>')[0];
+                popup_8688e23a6d184030ab98bab470f19bd4.setContent(html_5f14875564414d268947e80b94487d94);
+            
+
+            marker_70df0e44149a4316a790dc552fceb302.bindPopup(popup_8688e23a6d184030ab98bab470f19bd4)
+            ;
+
+            
+        
+    
+        var marker_2eba8aa9b27f4fbabf1c94d050ff1a21 = L.marker(
+            [39.535506299999994, -76.3490396],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_b49488fd436c4fd9b700a5846d68478c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2eba8aa9b27f4fbabf1c94d050ff1a21.setIcon(icon_b49488fd436c4fd9b700a5846d68478c);
+            
+    
+            var popup_60cc9d070f414288ae129497280a0cdc = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7d3a773f2bbc41e58a4c2f2f1e3a581f = $('<div id="html_7d3a773f2bbc41e58a4c2f2f1e3a581f" style="width: 100.0%; height: 100.0%;"><p>Student ID: 66<br>Hometown: Bel Air, MD</p></div>')[0];
+                popup_60cc9d070f414288ae129497280a0cdc.setContent(html_7d3a773f2bbc41e58a4c2f2f1e3a581f);
+            
+
+            marker_2eba8aa9b27f4fbabf1c94d050ff1a21.bindPopup(popup_60cc9d070f414288ae129497280a0cdc)
+            ;
+
+            
+        
+    
+        var marker_e745631c07964ca2bef97089c36ddf13 = L.marker(
+            [40.7139898, -73.5590157],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_569dfe7554c245159983d7bf41772d1c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e745631c07964ca2bef97089c36ddf13.setIcon(icon_569dfe7554c245159983d7bf41772d1c);
+            
+    
+            var popup_4531087e5f62408abe7bdcabf50d7cb3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4f6c258d71cc49e1b4617e138c857dca = $('<div id="html_4f6c258d71cc49e1b4617e138c857dca" style="width: 100.0%; height: 100.0%;"><p>Student ID: 67<br>Hometown: East Meadow, NY</p></div>')[0];
+                popup_4531087e5f62408abe7bdcabf50d7cb3.setContent(html_4f6c258d71cc49e1b4617e138c857dca);
+            
+
+            marker_e745631c07964ca2bef97089c36ddf13.bindPopup(popup_4531087e5f62408abe7bdcabf50d7cb3)
+            ;
+
+            
+        
+    
+        var marker_1ffc02df00dd48d78ed3342408a5f02a = L.marker(
+            [30.6765553, 104.0612783],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_ab68ceba51194d519a0748f281611b28 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1ffc02df00dd48d78ed3342408a5f02a.setIcon(icon_ab68ceba51194d519a0748f281611b28);
+            
+    
+            var popup_be2f9a937c7844fa9e192af08e6adb2c = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1f29f3efe8c343ceb259b6ffb8c6dd9b = $('<div id="html_1f29f3efe8c343ceb259b6ffb8c6dd9b" style="width: 100.0%; height: 100.0%;"><p>Student ID: 68<br>Hometown: Chengdu Sichuan 610000, </p></div>')[0];
+                popup_be2f9a937c7844fa9e192af08e6adb2c.setContent(html_1f29f3efe8c343ceb259b6ffb8c6dd9b);
+            
+
+            marker_1ffc02df00dd48d78ed3342408a5f02a.bindPopup(popup_be2f9a937c7844fa9e192af08e6adb2c)
+            ;
+
+            
+        
+    
+        var marker_29acb60948a148fea15d633653752937 = L.marker(
+            [39.9059631, 116.391248],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_16dce076544c4c2db708e129bbb5a040 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_29acb60948a148fea15d633653752937.setIcon(icon_16dce076544c4c2db708e129bbb5a040);
+            
+    
+            var popup_7dd5f549695f4475bffc8458ab9221ff = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_420be7f798ee4ccca5d9b4fc94000185 = $('<div id="html_420be7f798ee4ccca5d9b4fc94000185" style="width: 100.0%; height: 100.0%;"><p>Student ID: 69<br>Hometown: Beijing 100048, </p></div>')[0];
+                popup_7dd5f549695f4475bffc8458ab9221ff.setContent(html_420be7f798ee4ccca5d9b4fc94000185);
+            
+
+            marker_29acb60948a148fea15d633653752937.bindPopup(popup_7dd5f549695f4475bffc8458ab9221ff)
+            ;
+
+            
+        
+    
+        var marker_79902dbb512d4c4caff9953e3ae0a5a3 = L.marker(
+            [40.6501038, -73.9495823],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_3dc7dbde95d44570a28f28061c89b916 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_79902dbb512d4c4caff9953e3ae0a5a3.setIcon(icon_3dc7dbde95d44570a28f28061c89b916);
+            
+    
+            var popup_4ecead08bccc404bab6454d17da538ca = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7c6f4a880af5430ba3a6084518af4022 = $('<div id="html_7c6f4a880af5430ba3a6084518af4022" style="width: 100.0%; height: 100.0%;"><p>Student ID: 70<br>Hometown: Brooklyn, NY</p></div>')[0];
+                popup_4ecead08bccc404bab6454d17da538ca.setContent(html_7c6f4a880af5430ba3a6084518af4022);
+            
+
+            marker_79902dbb512d4c4caff9953e3ae0a5a3.bindPopup(popup_4ecead08bccc404bab6454d17da538ca)
+            ;
+
+            
+        
+    
+        var marker_c8a6e9a8ed924d498390ca89e4d2b9b8 = L.marker(
+            [40.85048545, -73.84040355802091],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_8070484b0c6c4b0d8a7a9407a3d6e9fb = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c8a6e9a8ed924d498390ca89e4d2b9b8.setIcon(icon_8070484b0c6c4b0d8a7a9407a3d6e9fb);
+            
+    
+            var popup_8a52150426de4732bc85ab7a97261e6e = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_553ee5e875bc4d77b631438040431a17 = $('<div id="html_553ee5e875bc4d77b631438040431a17" style="width: 100.0%; height: 100.0%;"><p>Student ID: 71<br>Hometown: Bronx, NY</p></div>')[0];
+                popup_8a52150426de4732bc85ab7a97261e6e.setContent(html_553ee5e875bc4d77b631438040431a17);
+            
+
+            marker_c8a6e9a8ed924d498390ca89e4d2b9b8.bindPopup(popup_8a52150426de4732bc85ab7a97261e6e)
+            ;
+
+            
+        
+    
+        var marker_09180c9f4bad4e399ba5b38e44f5c5de = L.marker(
+            [40.3492744, -74.6592958],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_be2648d433a04e46a2c854d36ac98a31 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_09180c9f4bad4e399ba5b38e44f5c5de.setIcon(icon_be2648d433a04e46a2c854d36ac98a31);
+            
+    
+            var popup_675447089a2b49c9bbe78085bf165ba7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4d460883326e4a57a3e3033cc90f0cc6 = $('<div id="html_4d460883326e4a57a3e3033cc90f0cc6" style="width: 100.0%; height: 100.0%;"><p>Student ID: 72<br>Hometown: Princeton, NJ</p></div>')[0];
+                popup_675447089a2b49c9bbe78085bf165ba7.setContent(html_4d460883326e4a57a3e3033cc90f0cc6);
+            
+
+            marker_09180c9f4bad4e399ba5b38e44f5c5de.bindPopup(popup_675447089a2b49c9bbe78085bf165ba7)
+            ;
+
+            
+        
+    
+        var marker_a982703f720644d6b70ac08d9235e90a = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_3c26b09eeb2c4a18b2767da44fa7e3a3 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a982703f720644d6b70ac08d9235e90a.setIcon(icon_3c26b09eeb2c4a18b2767da44fa7e3a3);
+            
+    
+            var popup_3d61fef4453c4ac49495ecd52f5d0976 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_b5e1d4093e9b4622afa3386852d2d8e4 = $('<div id="html_b5e1d4093e9b4622afa3386852d2d8e4" style="width: 100.0%; height: 100.0%;"><p>Student ID: 73<br>Hometown: New York, NY</p></div>')[0];
+                popup_3d61fef4453c4ac49495ecd52f5d0976.setContent(html_b5e1d4093e9b4622afa3386852d2d8e4);
+            
+
+            marker_a982703f720644d6b70ac08d9235e90a.bindPopup(popup_3d61fef4453c4ac49495ecd52f5d0976)
+            ;
+
+            
+        
+    
+        var marker_bed462dd463e414fa05228fe413a3a7f = L.marker(
+            [39.0840054, -77.15275729999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_742135af47fb47f899ccc11ebc19ac35 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bed462dd463e414fa05228fe413a3a7f.setIcon(icon_742135af47fb47f899ccc11ebc19ac35);
+            
+    
+            var popup_39e16e493ae54c3a8b2248d908bd88fa = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_291b51bfbf954f4897b91394f881c7e8 = $('<div id="html_291b51bfbf954f4897b91394f881c7e8" style="width: 100.0%; height: 100.0%;"><p>Student ID: 74<br>Hometown: Rockville, MD</p></div>')[0];
+                popup_39e16e493ae54c3a8b2248d908bd88fa.setContent(html_291b51bfbf954f4897b91394f881c7e8);
+            
+
+            marker_bed462dd463e414fa05228fe413a3a7f.bindPopup(popup_39e16e493ae54c3a8b2248d908bd88fa)
+            ;
+
+            
+        
+    
+        var marker_24f3f77dfcf74a1cacf9b2e4f85b7506 = L.marker(
+            [42.262593200000005, -71.8022934],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_d128415af58c43ce9a0b89aa17042c4e = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_24f3f77dfcf74a1cacf9b2e4f85b7506.setIcon(icon_d128415af58c43ce9a0b89aa17042c4e);
+            
+    
+            var popup_486d633d203b4a4782ee6df156e628e2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_ce9dc3ae9d214ccc84d3d5a519a8ef81 = $('<div id="html_ce9dc3ae9d214ccc84d3d5a519a8ef81" style="width: 100.0%; height: 100.0%;"><p>Student ID: 75<br>Hometown: Worcester, MA</p></div>')[0];
+                popup_486d633d203b4a4782ee6df156e628e2.setContent(html_ce9dc3ae9d214ccc84d3d5a519a8ef81);
+            
+
+            marker_24f3f77dfcf74a1cacf9b2e4f85b7506.bindPopup(popup_486d633d203b4a4782ee6df156e628e2)
+            ;
+
+            
+        
+    
+        var marker_af4d519672ab43c5869499d6a83f210f = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_5fbf1e7828b04fb086f61b31f2db0294 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af4d519672ab43c5869499d6a83f210f.setIcon(icon_5fbf1e7828b04fb086f61b31f2db0294);
+            
+    
+            var popup_5aed03cb42514917b6c34a9a3b9244c8 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f4234bd4b1494bbdb7de1a97c45a846d = $('<div id="html_f4234bd4b1494bbdb7de1a97c45a846d" style="width: 100.0%; height: 100.0%;"><p>Student ID: 76<br>Hometown: New York, NY</p></div>')[0];
+                popup_5aed03cb42514917b6c34a9a3b9244c8.setContent(html_f4234bd4b1494bbdb7de1a97c45a846d);
+            
+
+            marker_af4d519672ab43c5869499d6a83f210f.bindPopup(popup_5aed03cb42514917b6c34a9a3b9244c8)
+            ;
+
+            
+        
+    
+        var marker_2b7cc2f97bc247dca64cdbc1b5ecdb7e = L.marker(
+            [42.0667665, -71.10365920000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_14c1ba9e558d4aa5bfe2d195114b749f = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b7cc2f97bc247dca64cdbc1b5ecdb7e.setIcon(icon_14c1ba9e558d4aa5bfe2d195114b749f);
+            
+    
+            var popup_fa58d7fd981445ecb9b7b9330ff01d77 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_982971be4ddf49009a22153a655c90cd = $('<div id="html_982971be4ddf49009a22153a655c90cd" style="width: 100.0%; height: 100.0%;"><p>Student ID: 77<br>Hometown: North Easton, MA</p></div>')[0];
+                popup_fa58d7fd981445ecb9b7b9330ff01d77.setContent(html_982971be4ddf49009a22153a655c90cd);
+            
+
+            marker_2b7cc2f97bc247dca64cdbc1b5ecdb7e.bindPopup(popup_fa58d7fd981445ecb9b7b9330ff01d77)
+            ;
+
+            
+        
+    
+        var marker_5df7e77b17614b2f893f9feee21567de = L.marker(
+            [31.232273499999998, 121.46917490000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_c12d2dbf7f87432d9b3fee9e12e3fa12 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5df7e77b17614b2f893f9feee21567de.setIcon(icon_c12d2dbf7f87432d9b3fee9e12e3fa12);
+            
+    
+            var popup_5ff89028dae84c7b9fe3bbc96b6b34f2 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_474d1e0c079541b3a658c7c8f5f763be = $('<div id="html_474d1e0c079541b3a658c7c8f5f763be" style="width: 100.0%; height: 100.0%;"><p>Student ID: 78<br>Hometown: Shanghai 200061, </p></div>')[0];
+                popup_5ff89028dae84c7b9fe3bbc96b6b34f2.setContent(html_474d1e0c079541b3a658c7c8f5f763be);
+            
+
+            marker_5df7e77b17614b2f893f9feee21567de.bindPopup(popup_5ff89028dae84c7b9fe3bbc96b6b34f2)
+            ;
+
+            
+        
+    
+        var marker_23e7d23623704232995c1b570c228824 = L.marker(
+            [42.3756401, -71.2358004],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_52e2b9b711214bbcaaac8df9103e2a26 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_23e7d23623704232995c1b570c228824.setIcon(icon_52e2b9b711214bbcaaac8df9103e2a26);
+            
+    
+            var popup_217c3b355c4140bda376754d49fbb967 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_003318165af146d686c06bd6e4f66b9d = $('<div id="html_003318165af146d686c06bd6e4f66b9d" style="width: 100.0%; height: 100.0%;"><p>Student ID: 79<br>Hometown: Waltham, MA</p></div>')[0];
+                popup_217c3b355c4140bda376754d49fbb967.setContent(html_003318165af146d686c06bd6e4f66b9d);
+            
+
+            marker_23e7d23623704232995c1b570c228824.bindPopup(popup_217c3b355c4140bda376754d49fbb967)
+            ;
+
+            
+        
+    
+        var marker_b7f1d5fd7b2f49638032fb37171f64ac = L.marker(
+            [42.3602534, -71.0582912],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_9709f1c259b14f94b619c0712a0c588b = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b7f1d5fd7b2f49638032fb37171f64ac.setIcon(icon_9709f1c259b14f94b619c0712a0c588b);
+            
+    
+            var popup_707e4fa7e9e647e6bd5c584f86b61d0a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_db654ae0327643deb1057bdda457c225 = $('<div id="html_db654ae0327643deb1057bdda457c225" style="width: 100.0%; height: 100.0%;"><p>Student ID: 80<br>Hometown: Boston, MA</p></div>')[0];
+                popup_707e4fa7e9e647e6bd5c584f86b61d0a.setContent(html_db654ae0327643deb1057bdda457c225);
+            
+
+            marker_b7f1d5fd7b2f49638032fb37171f64ac.bindPopup(popup_707e4fa7e9e647e6bd5c584f86b61d0a)
+            ;
+
+            
+        
+    
+        var marker_78024b18e55f44869250b2dcd6d9a75f = L.marker(
+            [42.480095399999996, -71.09949759999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_59e2f4e140ce4d9ea5d57bfa3b6eea9c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_78024b18e55f44869250b2dcd6d9a75f.setIcon(icon_59e2f4e140ce4d9ea5d57bfa3b6eea9c);
+            
+    
+            var popup_51a9553318974c2fa04427d2a220e823 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_94ec8e0e15bd40f8ab91fe8ed4d659f5 = $('<div id="html_94ec8e0e15bd40f8ab91fe8ed4d659f5" style="width: 100.0%; height: 100.0%;"><p>Student ID: 81<br>Hometown: Stoneham, MA</p></div>')[0];
+                popup_51a9553318974c2fa04427d2a220e823.setContent(html_94ec8e0e15bd40f8ab91fe8ed4d659f5);
+            
+
+            marker_78024b18e55f44869250b2dcd6d9a75f.bindPopup(popup_51a9553318974c2fa04427d2a220e823)
+            ;
+
+            
+        
+    
+        var marker_31cbbba717f94ecc94a3e1b34e8ea229 = L.marker(
+            [42.48509310000001, -71.43284],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_c1c3c33ca8b843d99c70d7254738b802 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31cbbba717f94ecc94a3e1b34e8ea229.setIcon(icon_c1c3c33ca8b843d99c70d7254738b802);
+            
+    
+            var popup_d330d1c0227e4a20914b852d30db5218 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_4edcc19362934c2f855456b7d24a83ff = $('<div id="html_4edcc19362934c2f855456b7d24a83ff" style="width: 100.0%; height: 100.0%;"><p>Student ID: 82<br>Hometown: Acton, MA</p></div>')[0];
+                popup_d330d1c0227e4a20914b852d30db5218.setContent(html_4edcc19362934c2f855456b7d24a83ff);
+            
+
+            marker_31cbbba717f94ecc94a3e1b34e8ea229.bindPopup(popup_d330d1c0227e4a20914b852d30db5218)
+            ;
+
+            
+        
+    
+        var marker_251fb5033b2d4cac96628c5c384c6de3 = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_383be02a6c734344a5dc772cf1d3a630 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_251fb5033b2d4cac96628c5c384c6de3.setIcon(icon_383be02a6c734344a5dc772cf1d3a630);
+            
+    
+            var popup_ea7b0d9b4d674d35ab748087fd618980 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3743c3d2f5e0426781af83de87674673 = $('<div id="html_3743c3d2f5e0426781af83de87674673" style="width: 100.0%; height: 100.0%;"><p>Student ID: 83<br>Hometown: New York, NY</p></div>')[0];
+                popup_ea7b0d9b4d674d35ab748087fd618980.setContent(html_3743c3d2f5e0426781af83de87674673);
+            
+
+            marker_251fb5033b2d4cac96628c5c384c6de3.bindPopup(popup_ea7b0d9b4d674d35ab748087fd618980)
+            ;
+
+            
+        
+    
+        var marker_9f2f9991b6914d4a923e93bef48ad2b5 = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_80859d4217714190a9d084f93d155166 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f2f9991b6914d4a923e93bef48ad2b5.setIcon(icon_80859d4217714190a9d084f93d155166);
+            
+    
+            var popup_81bf39eeada142a49d2d71fce2964d47 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1a7f1fb076e5470b858d09d2879b57cf = $('<div id="html_1a7f1fb076e5470b858d09d2879b57cf" style="width: 100.0%; height: 100.0%;"><p>Student ID: 84<br>Hometown: New York, NY</p></div>')[0];
+                popup_81bf39eeada142a49d2d71fce2964d47.setContent(html_1a7f1fb076e5470b858d09d2879b57cf);
+            
+
+            marker_9f2f9991b6914d4a923e93bef48ad2b5.bindPopup(popup_81bf39eeada142a49d2d71fce2964d47)
+            ;
+
+            
+        
+    
+        var marker_894b9352e57a45d1ac86843268155a06 = L.marker(
+            [23.1301964, 113.25929450000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_4e443f95e5a844f089e4fc53dda0704c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_894b9352e57a45d1ac86843268155a06.setIcon(icon_4e443f95e5a844f089e4fc53dda0704c);
+            
+    
+            var popup_b6536bab4f714010a131a45cdf290d09 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a453add03c9a4add9e51a17e3e523e68 = $('<div id="html_a453add03c9a4add9e51a17e3e523e68" style="width: 100.0%; height: 100.0%;"><p>Student ID: 85<br>Hometown: Guangzhou Guangdong, </p></div>')[0];
+                popup_b6536bab4f714010a131a45cdf290d09.setContent(html_a453add03c9a4add9e51a17e3e523e68);
+            
+
+            marker_894b9352e57a45d1ac86843268155a06.bindPopup(popup_b6536bab4f714010a131a45cdf290d09)
+            ;
+
+            
+        
+    
+        var marker_7eef36a705a14af2b9c2bb0d8e9f30c6 = L.marker(
+            [40.853431799999996, -73.41150909999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e4760eea08094ba3b9628671498fc9e9 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7eef36a705a14af2b9c2bb0d8e9f30c6.setIcon(icon_e4760eea08094ba3b9628671498fc9e9);
+            
+    
+            var popup_ed0ec76e35364859aa5366b29a57da08 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_fe905c89d2f2485785e2483ff8b35e12 = $('<div id="html_fe905c89d2f2485785e2483ff8b35e12" style="width: 100.0%; height: 100.0%;"><p>Student ID: 86<br>Hometown: Huntington Station, NY</p></div>')[0];
+                popup_ed0ec76e35364859aa5366b29a57da08.setContent(html_fe905c89d2f2485785e2483ff8b35e12);
+            
+
+            marker_7eef36a705a14af2b9c2bb0d8e9f30c6.bindPopup(popup_ed0ec76e35364859aa5366b29a57da08)
+            ;
+
+            
+        
+    
+        var marker_e1994183294f48e39f5080d98093e4c5 = L.marker(
+            [42.3317642, -71.1211635],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_387dcc3c25a84aa9ad616ac782504309 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e1994183294f48e39f5080d98093e4c5.setIcon(icon_387dcc3c25a84aa9ad616ac782504309);
+            
+    
+            var popup_64a7235dc5bc4216924614b260118353 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1016865826dc4fc88742e02010e12b12 = $('<div id="html_1016865826dc4fc88742e02010e12b12" style="width: 100.0%; height: 100.0%;"><p>Student ID: 87<br>Hometown: Brookline, MA</p></div>')[0];
+                popup_64a7235dc5bc4216924614b260118353.setContent(html_1016865826dc4fc88742e02010e12b12);
+            
+
+            marker_e1994183294f48e39f5080d98093e4c5.bindPopup(popup_64a7235dc5bc4216924614b260118353)
+            ;
+
+            
+        
+    
+        var marker_9135afda64a741e1a2cfc1370f806787 = L.marker(
+            [42.363206299999995, -71.36067209999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_5906e77eecc142b3b173ca3f8865cb56 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9135afda64a741e1a2cfc1370f806787.setIcon(icon_5906e77eecc142b3b173ca3f8865cb56);
+            
+    
+            var popup_8b39567404a6469c94f687c12385ebde = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_6d803241674d4739b59ceaf206053d60 = $('<div id="html_6d803241674d4739b59ceaf206053d60" style="width: 100.0%; height: 100.0%;"><p>Student ID: 88<br>Hometown: Wayland, MA</p></div>')[0];
+                popup_8b39567404a6469c94f687c12385ebde.setContent(html_6d803241674d4739b59ceaf206053d60);
+            
+
+            marker_9135afda64a741e1a2cfc1370f806787.bindPopup(popup_8b39567404a6469c94f687c12385ebde)
+            ;
+
+            
+        
+    
+        var marker_b8c5178fb6774e60880e1da3a2affaf6 = L.marker(
+            [39.9059631, 116.391248],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_cc030b54139a4333b254e362eaf73d47 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b8c5178fb6774e60880e1da3a2affaf6.setIcon(icon_cc030b54139a4333b254e362eaf73d47);
+            
+    
+            var popup_5cdbedd55a7041c498dca86edd834e66 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_1ec5007e1a3f4db3a0ce872b58ad3304 = $('<div id="html_1ec5007e1a3f4db3a0ce872b58ad3304" style="width: 100.0%; height: 100.0%;"><p>Student ID: 89<br>Hometown: Beijing 100097, </p></div>')[0];
+                popup_5cdbedd55a7041c498dca86edd834e66.setContent(html_1ec5007e1a3f4db3a0ce872b58ad3304);
+            
+
+            marker_b8c5178fb6774e60880e1da3a2affaf6.bindPopup(popup_5cdbedd55a7041c498dca86edd834e66)
+            ;
+
+            
+        
+    
+        var marker_936bbca2962f42aea6e016100b4b5c3b = L.marker(
+            [41.92687539999999, -73.91266390000001],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_0c1ff1a0f826475e8ab0f39859531019 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_936bbca2962f42aea6e016100b4b5c3b.setIcon(icon_0c1ff1a0f826475e8ab0f39859531019);
+            
+    
+            var popup_e6bad2cccaaa4954914e67e871a486e4 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_f44f0b8203b9409383f7e6dfc7062060 = $('<div id="html_f44f0b8203b9409383f7e6dfc7062060" style="width: 100.0%; height: 100.0%;"><p>Student ID: 90<br>Hometown: Rhinebeck, NY</p></div>')[0];
+                popup_e6bad2cccaaa4954914e67e871a486e4.setContent(html_f44f0b8203b9409383f7e6dfc7062060);
+            
+
+            marker_936bbca2962f42aea6e016100b4b5c3b.bindPopup(popup_e6bad2cccaaa4954914e67e871a486e4)
+            ;
+
+            
+        
+    
+        var marker_b1f112c2515a4260a1ddbf9e01145ab1 = L.marker(
+            [42.6511674, -73.754968],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_5f144ae071214606b65da148b79b62f6 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b1f112c2515a4260a1ddbf9e01145ab1.setIcon(icon_5f144ae071214606b65da148b79b62f6);
+            
+    
+            var popup_0e64be3300c24e1f828519a1ab25732f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_cb09f481e3c34f6fb34d2a179cbe02e9 = $('<div id="html_cb09f481e3c34f6fb34d2a179cbe02e9" style="width: 100.0%; height: 100.0%;"><p>Student ID: 91<br>Hometown: Albany, NY</p></div>')[0];
+                popup_0e64be3300c24e1f828519a1ab25732f.setContent(html_cb09f481e3c34f6fb34d2a179cbe02e9);
+            
+
+            marker_b1f112c2515a4260a1ddbf9e01145ab1.bindPopup(popup_0e64be3300c24e1f828519a1ab25732f)
+            ;
+
+            
+        
+    
+        var marker_cbe018b9bb1244a287e0a368a397dbef = L.marker(
+            [42.4500967, -73.2453785],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_f341e07c33374782ba7230d579077286 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbe018b9bb1244a287e0a368a397dbef.setIcon(icon_f341e07c33374782ba7230d579077286);
+            
+    
+            var popup_7c4a4fecc4024715b63e235e03d164b5 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d645e8b9a3754f57a12596d3140dc050 = $('<div id="html_d645e8b9a3754f57a12596d3140dc050" style="width: 100.0%; height: 100.0%;"><p>Student ID: 92<br>Hometown: Pittsfield, MA</p></div>')[0];
+                popup_7c4a4fecc4024715b63e235e03d164b5.setContent(html_d645e8b9a3754f57a12596d3140dc050);
+            
+
+            marker_cbe018b9bb1244a287e0a368a397dbef.bindPopup(popup_7c4a4fecc4024715b63e235e03d164b5)
+            ;
+
+            
+        
+    
+        var marker_2ba052a765794addb0c4e24f9cdca26c = L.marker(
+            [41.2222218, -73.0570603],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e2b9e77f61bf454c804ea1d07f28d76c = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2ba052a765794addb0c4e24f9cdca26c.setIcon(icon_e2b9e77f61bf454c804ea1d07f28d76c);
+            
+    
+            var popup_2aff8be570f54a3f9b329d5b6de9e106 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c590c01d8c2d4eb1a4b2e4b46a8aae5f = $('<div id="html_c590c01d8c2d4eb1a4b2e4b46a8aae5f" style="width: 100.0%; height: 100.0%;"><p>Student ID: 93<br>Hometown: Milford, CT</p></div>')[0];
+                popup_2aff8be570f54a3f9b329d5b6de9e106.setContent(html_c590c01d8c2d4eb1a4b2e4b46a8aae5f);
+            
+
+            marker_2ba052a765794addb0c4e24f9cdca26c.bindPopup(popup_2aff8be570f54a3f9b329d5b6de9e106)
+            ;
+
+            
+        
+    
+        var marker_80afc13522e048eb81c67f95cd2defbd = L.marker(
+            [41.922956799999994, -72.6597964667531],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_9c02a6cd6b244ceb9f5d3ddb89ad2082 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_80afc13522e048eb81c67f95cd2defbd.setIcon(icon_9c02a6cd6b244ceb9f5d3ddb89ad2082);
+            
+    
+            var popup_f37342dd714b423e83499bbcb9efc40d = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_720f16b00ca04910aaacd650ed3e0b50 = $('<div id="html_720f16b00ca04910aaacd650ed3e0b50" style="width: 100.0%; height: 100.0%;"><p>Student ID: 94<br>Hometown: Windsor Locks, CT</p></div>')[0];
+                popup_f37342dd714b423e83499bbcb9efc40d.setContent(html_720f16b00ca04910aaacd650ed3e0b50);
+            
+
+            marker_80afc13522e048eb81c67f95cd2defbd.bindPopup(popup_f37342dd714b423e83499bbcb9efc40d)
+            ;
+
+            
+        
+    
+        var marker_0bfd3039d7af466dbdba65d64465cc58 = L.marker(
+            [-0.2201641, -78.5123274],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_2ba00af34c4c40ffbe06818725b46245 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0bfd3039d7af466dbdba65d64465cc58.setIcon(icon_2ba00af34c4c40ffbe06818725b46245);
+            
+    
+            var popup_0e9bfc20970c45eaa53195d738b4e9fd = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_341dd2a5cfd6406fb6646db317cad36c = $('<div id="html_341dd2a5cfd6406fb6646db317cad36c" style="width: 100.0%; height: 100.0%;"><p>Student ID: 95<br>Hometown: Quito, </p></div>')[0];
+                popup_0e9bfc20970c45eaa53195d738b4e9fd.setContent(html_341dd2a5cfd6406fb6646db317cad36c);
+            
+
+            marker_0bfd3039d7af466dbdba65d64465cc58.bindPopup(popup_0e9bfc20970c45eaa53195d738b4e9fd)
+            ;
+
+            
+        
+    
+        var marker_cd1aa21dee174a258b55f0edf34cb8b7 = L.marker(
+            [42.1237102, -71.1786627],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_1ece38bc3b2743d2b979b632c494bce0 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd1aa21dee174a258b55f0edf34cb8b7.setIcon(icon_1ece38bc3b2743d2b979b632c494bce0);
+            
+    
+            var popup_1faf10a3ef3343bcbd72b5f9ec521355 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_d974c590b8184bffbfe7d072a50b48a8 = $('<div id="html_d974c590b8184bffbfe7d072a50b48a8" style="width: 100.0%; height: 100.0%;"><p>Student ID: 96<br>Hometown: Sharon, MA</p></div>')[0];
+                popup_1faf10a3ef3343bcbd72b5f9ec521355.setContent(html_d974c590b8184bffbfe7d072a50b48a8);
+            
+
+            marker_cd1aa21dee174a258b55f0edf34cb8b7.bindPopup(popup_1faf10a3ef3343bcbd72b5f9ec521355)
+            ;
+
+            
+        
+    
+        var marker_44857db5e96a4cf5a9729aec30cd5749 = L.marker(
+            [43.0349931, -87.92249699999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_6685ca6741594c659ffeec9783656da5 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_44857db5e96a4cf5a9729aec30cd5749.setIcon(icon_6685ca6741594c659ffeec9783656da5);
+            
+    
+            var popup_1139b87324834da3b8477112f84a3e51 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_c026ea4436ea46229a1f20bb8d408d49 = $('<div id="html_c026ea4436ea46229a1f20bb8d408d49" style="width: 100.0%; height: 100.0%;"><p>Student ID: 97<br>Hometown: Milwaukee, WI</p></div>')[0];
+                popup_1139b87324834da3b8477112f84a3e51.setContent(html_c026ea4436ea46229a1f20bb8d408d49);
+            
+
+            marker_44857db5e96a4cf5a9729aec30cd5749.bindPopup(popup_1139b87324834da3b8477112f84a3e51)
+            ;
+
+            
+        
+    
+        var marker_bff14fc764284f16a7f45efc860b548e = L.marker(
+            [42.7300784, -73.70122990000002],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_37f9cdfe92a94b59949c9bf46d3d26cc = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bff14fc764284f16a7f45efc860b548e.setIcon(icon_37f9cdfe92a94b59949c9bf46d3d26cc);
+            
+    
+            var popup_9c4aacb3926143008985a1489c9934a6 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_3f10d4aa2a51494587f3031cdb8ed767 = $('<div id="html_3f10d4aa2a51494587f3031cdb8ed767" style="width: 100.0%; height: 100.0%;"><p>Student ID: 98<br>Hometown: Watervliet, NY</p></div>')[0];
+                popup_9c4aacb3926143008985a1489c9934a6.setContent(html_3f10d4aa2a51494587f3031cdb8ed767);
+            
+
+            marker_bff14fc764284f16a7f45efc860b548e.bindPopup(popup_9c4aacb3926143008985a1489c9934a6)
+            ;
+
+            
+        
+    
+        var marker_4068808145a34053855143198637ac15 = L.marker(
+            [40.9414874, -73.9593041],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_11eeb42510c14ed2a38f8bc0b549a29d = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'lightblue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4068808145a34053855143198637ac15.setIcon(icon_11eeb42510c14ed2a38f8bc0b549a29d);
+            
+    
+            var popup_09c7d17ccef4438fb8517ccf13980237 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_226971e2884f4f3d8713a1e9f9e2170b = $('<div id="html_226971e2884f4f3d8713a1e9f9e2170b" style="width: 100.0%; height: 100.0%;"><p>Student ID: 99<br>Hometown: Cresskill, NJ</p></div>')[0];
+                popup_09c7d17ccef4438fb8517ccf13980237.setContent(html_226971e2884f4f3d8713a1e9f9e2170b);
+            
+
+            marker_4068808145a34053855143198637ac15.bindPopup(popup_09c7d17ccef4438fb8517ccf13980237)
+            ;
+
+            
+        
+    
+        var marker_e5b3b58c2ad74dbf9b8a028226a6d323 = L.marker(
+            [42.3756401, -71.2358004],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_ad8b971505bd478a84d973faeb1de429 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e5b3b58c2ad74dbf9b8a028226a6d323.setIcon(icon_ad8b971505bd478a84d973faeb1de429);
+            
+    
+            var popup_9906877eccb646a88893a7fcb88f152f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_5e06c9636b1e40258376783b908ec823 = $('<div id="html_5e06c9636b1e40258376783b908ec823" style="width: 100.0%; height: 100.0%;"><p>Student ID: 100<br>Hometown: Waltham, MA</p></div>')[0];
+                popup_9906877eccb646a88893a7fcb88f152f.setContent(html_5e06c9636b1e40258376783b908ec823);
+            
+
+            marker_e5b3b58c2ad74dbf9b8a028226a6d323.bindPopup(popup_9906877eccb646a88893a7fcb88f152f)
+            ;
+
+            
+        
+    
+        var marker_852ef763705646cc866ee9c3690ed430 = L.marker(
+            [34.0536834, -118.24276689999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_700552e89e3e492a9ec60418b17329d9 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_852ef763705646cc866ee9c3690ed430.setIcon(icon_700552e89e3e492a9ec60418b17329d9);
+            
+    
+            var popup_0aa935a93e1c4c46b7e0f895250178a7 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_006cd3f3b389441ea6e373413bd3e5c6 = $('<div id="html_006cd3f3b389441ea6e373413bd3e5c6" style="width: 100.0%; height: 100.0%;"><p>Student ID: 101<br>Hometown: Los Angeles, CA</p></div>')[0];
+                popup_0aa935a93e1c4c46b7e0f895250178a7.setContent(html_006cd3f3b389441ea6e373413bd3e5c6);
+            
+
+            marker_852ef763705646cc866ee9c3690ed430.bindPopup(popup_0aa935a93e1c4c46b7e0f895250178a7)
+            ;
+
+            
+        
+    
+        var marker_cdd868e514754547ac04b1b2db487239 = L.marker(
+            [22.5445697, 114.0545346],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_fa7bc65624504cf58d6b11df11a78a52 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'orange',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cdd868e514754547ac04b1b2db487239.setIcon(icon_fa7bc65624504cf58d6b11df11a78a52);
+            
+    
+            var popup_fa14b8dd92ed41d4820daf367ae28863 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_7a813b4589464d9e84e7f1f8a32224e5 = $('<div id="html_7a813b4589464d9e84e7f1f8a32224e5" style="width: 100.0%; height: 100.0%;"><p>Student ID: 102<br>Hometown: Shenzhen City, Guangdong, </p></div>')[0];
+                popup_fa14b8dd92ed41d4820daf367ae28863.setContent(html_7a813b4589464d9e84e7f1f8a32224e5);
+            
+
+            marker_cdd868e514754547ac04b1b2db487239.bindPopup(popup_fa14b8dd92ed41d4820daf367ae28863)
+            ;
+
+            
+        
+    
+        var marker_fd2eb4c32fe941eeae0b7cf91e07e795 = L.marker(
+            [43.653963, -79.38720699999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_4b8fa98109c9423fa9832a0423ce6151 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fd2eb4c32fe941eeae0b7cf91e07e795.setIcon(icon_4b8fa98109c9423fa9832a0423ce6151);
+            
+    
+            var popup_478a7495ebfe4ed0bc422fdfa6465827 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_de194f03215c41a3b8bd71d9fdb711e7 = $('<div id="html_de194f03215c41a3b8bd71d9fdb711e7" style="width: 100.0%; height: 100.0%;"><p>Student ID: 103<br>Hometown: Tornto ON, </p></div>')[0];
+                popup_478a7495ebfe4ed0bc422fdfa6465827.setContent(html_de194f03215c41a3b8bd71d9fdb711e7);
+            
+
+            marker_fd2eb4c32fe941eeae0b7cf91e07e795.bindPopup(popup_478a7495ebfe4ed0bc422fdfa6465827)
+            ;
+
+            
+        
+    
+        var marker_aa3aea8bbe72467ca60e766a0f46aec3 = L.marker(
+            [28.6141793, 77.2022662],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_b950e263639b4814b019e0d21e398b08 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_aa3aea8bbe72467ca60e766a0f46aec3.setIcon(icon_b950e263639b4814b019e0d21e398b08);
+            
+    
+            var popup_b8da260422814891bd10d986b7b55d20 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_10d3f9f4bc6842f8adc42aa9471ad2a1 = $('<div id="html_10d3f9f4bc6842f8adc42aa9471ad2a1" style="width: 100.0%; height: 100.0%;"><p>Student ID: 104<br>Hometown: New Delhi, </p></div>')[0];
+                popup_b8da260422814891bd10d986b7b55d20.setContent(html_10d3f9f4bc6842f8adc42aa9471ad2a1);
+            
+
+            marker_aa3aea8bbe72467ca60e766a0f46aec3.bindPopup(popup_b8da260422814891bd10d986b7b55d20)
+            ;
+
+            
+        
+    
+        var marker_7d77b3b509964f7bb11970af80322ad6 = L.marker(
+            [40.85048545, -73.84040355802091],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e07a529551704208a6ac2d9624f4790d = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7d77b3b509964f7bb11970af80322ad6.setIcon(icon_e07a529551704208a6ac2d9624f4790d);
+            
+    
+            var popup_16177dea3e7f477988144b45aac0c6c3 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_614ccc05369948b0adc3f6030a2837ef = $('<div id="html_614ccc05369948b0adc3f6030a2837ef" style="width: 100.0%; height: 100.0%;"><p>Student ID: 105<br>Hometown: Bronx, NY</p></div>')[0];
+                popup_16177dea3e7f477988144b45aac0c6c3.setContent(html_614ccc05369948b0adc3f6030a2837ef);
+            
+
+            marker_7d77b3b509964f7bb11970af80322ad6.bindPopup(popup_16177dea3e7f477988144b45aac0c6c3)
+            ;
+
+            
+        
+    
+        var marker_226767d77e4e4300bcb65df0cbee4552 = L.marker(
+            [40.74123595, -73.356691165361],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_850be0cb1eb041a59ad7997c497d5ec8 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_226767d77e4e4300bcb65df0cbee4552.setIcon(icon_850be0cb1eb041a59ad7997c497d5ec8);
+            
+    
+            var popup_8dceec8ccc944fd1a945ddcd26dfa52a = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_8cb829dd367d4ba7bdd36ff6c13088bb = $('<div id="html_8cb829dd367d4ba7bdd36ff6c13088bb" style="width: 100.0%; height: 100.0%;"><p>Student ID: 106<br>Hometown: New York, NY</p></div>')[0];
+                popup_8dceec8ccc944fd1a945ddcd26dfa52a.setContent(html_8cb829dd367d4ba7bdd36ff6c13088bb);
+            
+
+            marker_226767d77e4e4300bcb65df0cbee4552.bindPopup(popup_8dceec8ccc944fd1a945ddcd26dfa52a)
+            ;
+
+            
+        
+    
+        var marker_6359a953c43947538e7ba744ef3af63f = L.marker(
+            [32.060973600000004, 118.79164579999998],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e15a314c266e42298ed347613068997d = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'beige',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6359a953c43947538e7ba744ef3af63f.setIcon(icon_e15a314c266e42298ed347613068997d);
+            
+    
+            var popup_372362093991419e87fd96e21e78d95f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_31114d29a734490c8b80fc835261dbb2 = $('<div id="html_31114d29a734490c8b80fc835261dbb2" style="width: 100.0%; height: 100.0%;"><p>Student ID: 107<br>Hometown: Nanjing, Jiangsu, </p></div>')[0];
+                popup_372362093991419e87fd96e21e78d95f.setContent(html_31114d29a734490c8b80fc835261dbb2);
+            
+
+            marker_6359a953c43947538e7ba744ef3af63f.bindPopup(popup_372362093991419e87fd96e21e78d95f)
+            ;
+
+            
+        
+    
+        var marker_45aefa33c1174c739aeff5da968c14cd = L.marker(
+            [41.0534302, -73.53873409999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_71bf3f1cf6b74fb991481ebec6eab8f5 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'purple',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_45aefa33c1174c739aeff5da968c14cd.setIcon(icon_71bf3f1cf6b74fb991481ebec6eab8f5);
+            
+    
+            var popup_96ece0caaa9c47bb82225aabbcc3c27f = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_2fa6c69783e3461a959a4988825cd476 = $('<div id="html_2fa6c69783e3461a959a4988825cd476" style="width: 100.0%; height: 100.0%;"><p>Student ID: 108<br>Hometown: Stamford, CT</p></div>')[0];
+                popup_96ece0caaa9c47bb82225aabbcc3c27f.setContent(html_2fa6c69783e3461a959a4988825cd476);
+            
+
+            marker_45aefa33c1174c739aeff5da968c14cd.bindPopup(popup_96ece0caaa9c47bb82225aabbcc3c27f)
+            ;
+
+            
+        
+    
+        var marker_3abde4cedb2640c98822b33f02f15281 = L.marker(
+            [42.2912093, -71.12449659999999],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_8c106e47e1074e17bb694256e75935c7 = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3abde4cedb2640c98822b33f02f15281.setIcon(icon_8c106e47e1074e17bb694256e75935c7);
+            
+    
+            var popup_42c50c95fa0444d29a2441003b0ed6f0 = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_0764c4aa45564157a5355e063ee739e0 = $('<div id="html_0764c4aa45564157a5355e063ee739e0" style="width: 100.0%; height: 100.0%;"><p>Student ID: 109<br>Hometown: Roslindale, MA</p></div>')[0];
+                popup_42c50c95fa0444d29a2441003b0ed6f0.setContent(html_0764c4aa45564157a5355e063ee739e0);
+            
+
+            marker_3abde4cedb2640c98822b33f02f15281.bindPopup(popup_42c50c95fa0444d29a2441003b0ed6f0)
+            ;
+
+            
+        
+    
+        var marker_c811c72ac09e4cba800293154b0f6edc = L.marker(
+            [43.2503348, -78.6472536],
+            {
+                icon: new L.Icon.Default()
+                }
+            ).addTo(map_16adacf4df8a48aca9202e9481205758);
+        
+    
+
+                var icon_e3081519f2254460823cbd0266aac3fe = L.AwesomeMarkers.icon({
+                    icon: 'graduation-cap',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'fa',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c811c72ac09e4cba800293154b0f6edc.setIcon(icon_e3081519f2254460823cbd0266aac3fe);
+            
+    
+            var popup_fb5428c2a4fe4f6a868ba3d85abf48ed = L.popup({maxWidth: '300'
+            
+            });
+
+            
+                var html_a38fca31136648f99111ee938dbaea5a = $('<div id="html_a38fca31136648f99111ee938dbaea5a" style="width: 100.0%; height: 100.0%;"><p>Student ID: 110<br>Hometown: Ridgewood, NY</p></div>')[0];
+                popup_fb5428c2a4fe4f6a868ba3d85abf48ed.setContent(html_a38fca31136648f99111ee938dbaea5a);
+            
+
+            marker_c811c72ac09e4cba800293154b0f6edc.bindPopup(popup_fb5428c2a4fe4f6a868ba3d85abf48ed)
+            ;
+
+            
+        
+</script>
