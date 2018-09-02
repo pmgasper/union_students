@@ -2,3 +2,4 @@
 notes.ipynb
 *.swp
 *.ipynb_checkpoints
+geckodriver.log
