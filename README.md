@@ -6,11 +6,13 @@ in identifying insights that might suggest improvements to the student experienc
 
 The project is divided into a series of Juypter notebooks:
 1. [Project Overview](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb01_overview.ipynb)
-2. [Data Cleaning](nb02_cleaning.ipynb)
-3. [Descriptive Statistics](nb03_descriptive_stats.ipynb)
-4. [Inferential Statistics](nb04_hypothesis_testing.ipynb)
-5. [Geographic Maps - Data Cleaning](nb05a_map_data.ipynb)<br>
-   [Geographic Maps - Display](nb05b_map_display.ipynb)
+2. [Data Cleaning](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb02_cleaning.ipynb)
+3. [Descriptive Statistics](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb03_descriptive_stats.ipynb)
+4. [Inferential Statistics](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb04_hypothesis_testing.ipynb)
+5. [Geographic Maps - Data Cleaning](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb05a_map_data.ipynb)<br>
+   [Geographic Maps - Display](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb05b_map_display.ipynb)
+
+They are best rendered by and linked above to instances in [nbviewer](http://nbviewer.jupyter.org/)
 
 Additional files:
 * [Constants](union_constants.py) used throughout project 
