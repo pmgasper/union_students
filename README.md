@@ -5,7 +5,7 @@ academic years. The aim is to automate data visualization and identify potential
 in identifying insights that might suggest improvements to the student experience.
 
 The project is divided into a series of Juypter notebooks:
-1. [Project Overview](nb01_overview.ipynb)
+1. [Project Overview](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb01_overview.ipynb)
 2. [Data Cleaning](nb02_cleaning.ipynb)
 3. [Descriptive Statistics](nb03_descriptive_stats.ipynb)
 4. [Inferential Statistics](nb04_hypothesis_testing.ipynb)
