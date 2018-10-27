@@ -11,6 +11,7 @@ The project is divided into a series of Juypter notebooks:
 4. [Inferential Statistics](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb04_hypothesis_testing.ipynb)
 5. [Geographic Maps - Data Cleaning](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb05a_map_data.ipynb)<br>
    [Geographic Maps - Display](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb05b_map_display.ipynb)
+6. [Additional Data - Non majors](http://nbviewer.jupyter.org/github/pmgasper/union_students/blob/master/nb06_nonmajordata.ipynb)
 
 They are best rendered by and linked above to instances in [nbviewer](http://nbviewer.jupyter.org/)
 
